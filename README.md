@@ -1,136 +1,130 @@
-# Reputera.se Portfolio
+[Reputera.se](https://reputera.se) Portfolio
 
-Hi, I’m **Pierre A. Camilo**, an **AI engineer and SaaS systems orchestrator**.  
+![Reputera.se - Online Reputation Management for Swedish Businesses](https://reputera.se/wp-content/uploads/2026/01/Screenshot-2026-01-06-at-11.30.12.png)  
 
-I specialize in designing and orchestrating **AI-driven workflows, hybrid architectures, and automation for live production SaaS systems**.  
-While I don’t code in the traditional sense, I **leverage AI and system design to implement production-ready solutions safely, efficiently, and securely**.  
+[Reputera.se](https://reputera.se) Portfolio
 
-This portfolio showcases my work on **Reputera.se**, an Online Reputation Management (ORM) SaaS serving Swedish small and mid-sized businesses.  
+Hi, I'm **Pierre A. Camilo**, an **AI Engineer and SaaS Orchestrator**.
+
+I specialize in designing and orchestrating **AI-driven workflows, hybrid architectures, and production-grade automation** for live SaaS systems. While I rarely write traditional line-by-line code, I leverage AI agents, system design, and secure orchestration to deliver **safe, efficient, and scalable solutions**.
+
+This repository is a public portfolio showcasing my work on **[Reputera.se](https://reputera.se)** – a Swedish Online Reputation Management (ORM) SaaS focused on helping craftsmen (e.g., carpenters, painters, electricians, plumbers) automate review collection via SMS/email, improve Google rankings, and protect their online reputation.
 
 ---
 
-## 📂 Repository Structure
-
+📂 Repository Structure
 reputera-portfolio/
-│
-├── README.md # Portfolio landing page (this file)
-├── CASE_STUDY.md # Full case study (implementation, challenges, results)
-├── ARCHITECTURE.md # System architecture overview & diagrams
-├── ROADMAP.md # Product roadmap (phases 0–5)
-├── SECURITY.md # Security policies & best practices
-├── claude.md # AI agent protocol (optional showcase)
-├── .gitignore # Ignore environment files, logs, node_modules
-├── .env.example # Placeholder for environment variables
-│
+├── README.md              # This portfolio overview
+├── CASE_STUDY.md          # Full case study (problem, solution, results)
+├── ARCHITECTURE.md        # System diagrams and technical deep-dive
+├── ROADMAP.md             # Product phases (0–5) and future plans
+├── SECURITY.md            # Security policies and implementations
+├── claude.md              # Example AI agent orchestration protocol
+├── .gitignore
+├── .env.example           # Sample environment variables
 └── src/
-├── public_components/ # UI templates, forms, snippets (no secrets)
-└── example_flows/ # Pseudocode, workflows, diagrams
+├── public_components/ # UI templates & snippets (no secrets)
+└── example_flows/     # Pseudocode, workflows, and diagrams
+text---
 
+🛠 Technology Stack
 
----
-
-## 🧩 Technology Stack
-
-| Component           | Technology / Notes |
-|--------------------|------------------|
-| Frontend           | WordPress 6.x + Paid Member Subscriptions (PMS) |
-| Backend            | Supabase (Postgres, RLS, Edge Functions) |
-| AI                 | DeepSeek + Claude Pro orchestrated workflows |
-| SMS                | 46elks (Sweden-first, predictable billing) |
-| Payments           | PayPal (via PMS plugin) |
-| Integrations       | Hunter.io, Google Sheets, SendGrid |
-| Automation         | Cron jobs via Supabase Edge Functions |
+| Component            | Technology / Choice                                          |
+|----------------------|--------------------------------------------------------------|
+| **Frontend**         | WordPress 6.x + Paid Member Subscriptions (PMS)              |
+| **Backend**          | Supabase (Postgres DB, Row-Level Security, Edge Functions)   |
+| **AI Layer**         | DeepSeek + Claude Pro (orchestrated multi-model workflows)   |
+| **SMS Automation**   | 46elks (Sweden-focused, predictable pricing)                 |
+| **Payments**         | PayPal (via PMS plugin)                                      |
+| **Key Integrations** | Hunter.io, Google Sheets, SendGrid                           |
+| **Automation**       | Cron jobs via Supabase Edge Functions                        |
 
 ---
 
-## 📊 Key Workflows
+ 🔄 Core System Workflow
 
-mermaid
+
 flowchart TD
-    CUSTOMER[Customer / User] -->|Submit Review| WORDPRESS[WordPress Frontend]
-    WORDPRESS -->|Sync via REST| SUPABASE[Supabase DB & Edge Functions]
-    SUPABASE --> AI[Claude / DeepSeek AI Orchestration]
-    SUPABASE --> SMS[46elks SMS Automation]
-    SUPABASE --> DASHBOARD[Admin Dashboard]
-    DASHBOARD --> CUSTOMER
+    A[Customer / User] -->|Submits Review Request| B["WordPress Frontend\n(UI + Auth + Subscriptions)"]
+    B -->|REST API Sync| C["Supabase\n(DB, RLS, Edge Functions)"]
+    C --> D["AI Orchestration\n(Claude + DeepSeek)"]
+    C --> E["SMS Automation\n(46elks)"]
+    C --> F["Admin Dashboard\n(Usage, Costs, Alerts)"]
+    F --> A
+
+    style A fill:#E3F2FD,stroke:#BBDEFB
+    style B fill:#F3E5F5,stroke:#E1BEE7
+    style C fill:#E8F5E9,stroke:#C8E6C9
+    style D fill:#FFF3E0,stroke:#FFE0B2
+    style E fill:#FFEBEE,stroke:#FFCDD2
+    style F fill:#EFEBE9,stroke:#D7CCC8
+Explanation
+
+WordPress manages the user interface, authentication, and subscriptions.
+Supabase provides secure storage, analytics, and serverless automation.
+AI and SMS features are strictly limited per plan with comprehensive logging.
+The dashboard gives real-time monitoring of usage, costs, and alerts.
 
 
-Explanation:
+🚀 Key Achievements & Contributions
 
-WordPress handles UI, authentication, and subscriptions
+Hybrid Architecture Design
+Integrated modern Supabase backend with existing WordPress frontend for scalability without a complete rewrite.
+AI Workflow Orchestration
+Built safe, multi-model AI pipelines (Claude + DeepSeek) with human-in-the-loop controls.
+Cost Control & Transparency
+Implemented usage tracking and hard caps → no billing surprises, better margin visibility.
+Security-First Multi-Tenancy
+Row-Level Security (RLS), env-var secrets, and fail-safe design (frontend works offline from backend).
+Automated Review Campaigns
+Cron-based ingestion from Google, Trustpilot, Facebook, Reco.se + targeted SMS via 46elks.
+Extensible Foundation
+Ready for future AI features like prioritization, competitor benchmarking, and sentiment analysis.
 
-Supabase handles data logging, analytics, and serverless automation
+Example ORM Dashboard Visuals
+Reputation Management Dashboard Example 1
+Reputation Management Dashboard Example 2
+Reputation Management Dashboard Example 3
 
-AI responses and SMS are controlled per user, respecting plan limits
+📄 Key Documentation
 
-Admin dashboard visualizes usage, costs, and alerts
 
-🚀 Portfolio Highlights
-1. AI-Driven System Orchestration
 
-Designed a hybrid architecture combining WordPress and Supabase
 
-Orchestrated AI workflows (Claude + DeepSeek) for controlled automation
 
-Automated SMS campaigns via 46elks with per-plan limits and logging
 
-2. Cost & Usage Transparency
 
-Designed AI and SMS usage logging tables (Supabase)
 
-Enforced plan-based hard caps and enabled forecasting
 
-Reduced surprise costs and improved margin visibility
 
-3. Security & Risk Management
 
-Specified Supabase Row-Level Security (RLS) for multi-tenant data
 
-Human-in-the-loop for sensitive automation (AI & SMS)
 
-Environment-variable-based secrets handling for safety
 
-Fail-safe design: WordPress continues even if backend fails
 
-4. Scalable SaaS Automation
 
-Designed cron-based workflows via Supabase Edge Functions
 
-Multi-source data ingestion (Google, Trustpilot, Facebook, Reco.se)
 
-Enabled analytics dashboards without rewriting WordPress frontend
 
-5. Business-Aligned Engineering
 
-Predictable margins and safer upsells based on usage
 
-Faster feature iteration without risking payments or subscriptions
 
-Platform extensible for AI-assisted prioritization, competitor benchmarking, and sentiment insights
 
-📄 Key Files
 
-CASE_STUDY.md
- — Full problem, solution, and results
 
-ARCHITECTURE.md
- — Technical system overview and diagrams
 
-ROADMAP.md
- — Product roadmap and scaling phases
 
-SECURITY.md
- — Security policies and best practices
 
-claude.md
- — AI agent orchestration protocol
+
+FileDescription[CASE_STUDY.md]Complete problem, implementation, challenges & outcomes[ARCHITECTURE.md]Detailed diagrams and data flows[ROADMAP.md]Current phase + planned Phases 0–5[SECURITY.md]Policies, RLS setup, and risk mitigation[claude.md]Sample AI agent orchestration protocol
 
 🌟 Key Takeaways
 
-Legacy systems can scale safely with hybrid integration
+Legacy platforms can be modernized safely with hybrid architectures.
+In live SaaS, cost control and security are as vital as new features.
+AI performs best when orchestrated and constrained intentionally.
+Thoughtful design reduces risk and enables faster, safer iterations.
 
-Cost control and security are as important as feature velocity
-
-AI should be orchestrated and constrained by design
-
-Thoughtful architecture reduces risk in live production SaaS
+Thank you for visiting my portfolio! Feel free to dive into the docs or contact me to chat about AI orchestration, SaaS architecture, or reputation management.
+Pierre A. Camilo
+AI Engineer & SaaS Orchestrator
