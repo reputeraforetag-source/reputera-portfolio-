@@ -70,7 +70,9 @@ UI, authentication, subscriptions, payments
 
 Supabase = Execution Plane  
 Automation, analytics, cost tracking, AI workflows
+
 📊 Portfolio Highlights
+
 Hybrid Architecture Design
 Integrated a modern Supabase backend with the existing WordPress frontend
 
