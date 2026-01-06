@@ -63,6 +63,7 @@ Rewrites slow product velocity
 Decision:
 Do not duplicate user or payment state in Supabase. Reference wp_user_id everywhere.
 
+
 4. Supabase as the Backend Engine
 Supabase was introduced to handle workloads WordPress is not designed for.
 
@@ -88,6 +89,7 @@ Edge Functions for cron-like automation
 
 Views for read-optimized analytics
 
+
 5. Data Ownership & Multi-Tenancy
 User identity model:
 
@@ -108,6 +110,7 @@ No cross-tenant access
 Safe analytics queries
 
 Future support for agency / parent accounts
+
 
 6. Integration Layer (WordPress ↔ Supabase)
 A custom REST bridge connects WordPress to Supabase.
@@ -138,6 +141,7 @@ Review imported
 
 Daily stats aggregation trigger
 
+
 7. Usage & Cost Tracking Architecture
 Cost visibility was a core architectural driver.
 
@@ -161,6 +165,7 @@ Abuse prevention
 
 AI and SMS are treated as billable resources, not just features.
 
+
 8. Automation & Cron Strategy
 Automatic Jobs:
 
@@ -181,6 +186,7 @@ Keeps frontend fast
 Prevents timeout risks
 
 Centralizes automation logic
+
 
 9. AI System Placement
 AI is intentionally isolated from WordPress.
@@ -203,6 +209,7 @@ Unpredictable behavior
 
 Trust erosion with customers
 
+
 10. Failure Modes & Resilience
 If Supabase is unavailable:
 
@@ -222,6 +229,7 @@ Human intervention possible
 
 Critical for small-team SaaS environments
 
+
 11. Scalability Path
 Supports future growth without frontend rework:
 
@@ -234,6 +242,7 @@ Advanced AI analytics
 Competitor benchmarking
 
 External dashboards
+
 
 12. Architectural Philosophy
 Good architecture reduces decisions later.
