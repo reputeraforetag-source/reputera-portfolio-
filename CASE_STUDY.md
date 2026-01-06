@@ -1,246 +1,206 @@
-Case Study: Reputera.se
+# Case Study: Reputera.se
 
-Hybrid Backend & AI Integration in a Live WordPress SaaS
+**Hybrid Backend & AI Integration in a Live WordPress SaaS**
 
-Executive Summary
+---
 
-Reputera.se is a production Online Reputation Management (ORM) SaaS serving Swedish small and mid-sized businesses.
+## Executive Summary
 
-This case study documents how a live WordPress-based SaaS was extended with a modern Supabase backend to support:
+Reputera.se is a production Online Reputation Management (ORM) SaaS serving Swedish small and mid-sized businesses.  
 
-AI-driven features with strict cost controls
+This case study documents how a **live WordPress-based SaaS** was extended with a modern Supabase backend to support:
 
-SMS automation with per-plan limits
+- AI-driven features with **strict cost controls**  
+- SMS automation with **per-plan limits**  
+- Advanced analytics and **usage tracking**  
+- Scalable automation **without frontend rewrites**  
 
-Advanced analytics and usage tracking
+The project was executed under **real production constraints**: paying users, active subscriptions, and zero tolerance for downtime.
 
-Scalable automation without frontend rewrites
+---
 
-The project was executed under real production constraints: paying users, active subscriptions, and zero tolerance for downtime.
+## The Problem
 
-The Problem
+Reputera.se was live with:
 
-Reputera was already live with:
+- WordPress frontend  
+- Paid Member Subscriptions (PMS)  
+- PayPal payments  
+- SMS automation via 46elks  
+- AI-powered responses via DeepSeek  
 
-WordPress frontend
+However, the system lacked:
 
-Paid Member Subscriptions (PMS)
+- Cost visibility for AI and SMS usage  
+- Reliable analytics across users and time  
+- Scalable automation (cron jobs, aggregation, alerts)  
+- Safe extensibility without destabilizing WordPress  
 
-PayPal payments
+**Core risk:** Rewriting or replacing WordPress would break subscriptions, introduce billing risk, and slow feature delivery.
 
-SMS automation via 46elks
+---
 
-AI-powered responses via DeepSeek
+## Constraints
 
-However, the architecture lacked:
+Hard constraints shaped the architecture:
 
-Cost visibility for AI and SMS usage
+- WordPress remains the system of record  
+- Payments and memberships stay in PMS  
+- No auto-deployments  
+- No secrets in repositories  
+- User-level usage limits must be enforced  
+- Human-in-the-loop for high-risk automation  
 
-Reliable analytics across users and time
+This was **not a greenfield project** — the solution had to **modernize without disruption**.
 
-Scalable automation (cron jobs, aggregation, alerts)
+---
 
-Safe extensibility without destabilizing WordPress
+## Architectural Decision: Hybrid Model
 
-Core risk: Rewriting or replacing WordPress would:
+Instead of replacing WordPress, a **hybrid approach** was chosen:
 
-Break subscriptions
+| Layer       | Responsibility |
+|------------|----------------|
+| WordPress  | Users, authentication, UI, subscriptions, payments |
+| Supabase   | Data analytics, cost tracking, automation, cron jobs |
+| REST Bridge | Controlled data sync between systems |
 
-Introduce billing risk
+**Why Supabase:**
 
-Slow down feature delivery
+- Postgres with strong relational modeling  
+- Row-Level Security (RLS) for multi-tenancy  
+- Edge Functions for serverless automation  
+- Predictable cost model  
 
-Constraints
+---
 
-This was not a greenfield project. Hard constraints included:
+## Key Implementation Areas
 
-WordPress remains the system of record
-
-Payments and memberships stay in PMS
-
-No auto-deployments
-
-No secrets in repositories
-
-User-level usage limits must be enforced
-
-Human-in-the-loop for high-risk automation
-
-These constraints shaped the architecture.
-
-Architectural Decision: Hybrid Model
-
-Instead of replacing WordPress, the system was extended using a hybrid approach.
-
-Layer	Responsibility
-WordPress	Users, authentication, UI, subscriptions, payments
-Supabase	Data analytics, cost tracking, automation, cron jobs
-REST Bridge	Controlled data sync between systems
-
-Why Supabase:
-
-Postgres with strong relational modeling
-
-Row-Level Security (RLS) for multi-tenancy
-
-Edge Functions for serverless automation
-
-Predictable cost model
-
-Key Implementation Areas
-A. Usage & Cost Tracking (AI + SMS)
+### A. Usage & Cost Tracking (AI + SMS)
 
 Supabase tables introduced:
 
-ai_usage_log
+- `ai_usage_log`  
+- `sms_usage_log`  
+- `daily_stats`  
 
-sms_usage_log
+Each log entry includes:
 
-daily_stats
+- `wp_user_id`  
+- Timestamp  
+- Cost metrics (USD / SEK)  
 
-Each log entry is tied to:
+**Impact:**
 
-wp_user_id
+- Hard caps per subscription plan  
+- Forecasting and margin analysis  
+- Abuse prevention  
 
-Timestamp
+---
 
-Cost metrics (USD / SEK)
+### B. AI Integration (DeepSeek)
 
-Impact:
+**Problem:** AI responses create variable, invisible costs.  
 
-Hard caps per subscription plan
+**Solution:**
 
-Forecasting and margin analysis
+- Centralized AI calls via WordPress REST endpoint  
+- Usage logged per request  
+- Monthly caps enforced per plan  
+- No background auto-generation without approval  
 
-Abuse prevention
+**Result:** AI became a controlled feature, not a runaway cost center.
 
-B. AI Integration (DeepSeek)
+---
 
-Problem: AI responses create variable, invisible costs.
+### C. SMS Automation (46elks)
 
-Solution:
+**Why 46elks:** Sweden-first pricing, local reliability, predictable billing  
 
-Centralized AI calls via a WordPress REST endpoint
+**Implementation Highlights:**
 
-Usage logged per request
+- Credentials stored in WordPress options  
+- Daily & weekly limits per plan  
+- SMS usage logged to Supabase  
+- One-time review tokens with expiry  
 
-Monthly caps enforced per plan
+**Impact:** Reduced spam risk and ensured GDPR-aligned behavior.
 
-No background auto-generation without approval
+---
 
-Outcome: AI became a controlled feature, not a runaway cost center.
-
-C. SMS Automation (46elks)
-
-Why 46elks (not Twilio):
-
-Sweden-first pricing
-
-Local reliability
-
-Predictable billing
-
-Implementation Highlights:
-
-Credentials stored in WordPress options
-
-Daily and weekly limits per plan
-
-SMS usage logged to Supabase
-
-One-time review tokens with expiry
-
-Impact: Reduced spam risk and ensured GDPR-aligned behavior.
-
-D. Data Synchronization (WordPress → Supabase)
+### D. Data Synchronization (WordPress → Supabase)
 
 Custom REST API bridge designed to sync:
 
-New users
+- New users  
+- Usage events  
+- Review activity  
 
-Usage events
+**Principles:**
 
-Review activity
+- Push only what is needed  
+- Never expose Supabase directly to clients  
+- Fail safely (WordPress continues working if Supabase is unavailable)
 
-Principles:
+---
 
-Push only what is needed
+## Security Model
 
-Never expose Supabase directly to clients
+- Supabase Row-Level Security (RLS) per user  
+- No shared service roles in frontend code  
+- Environment variables for all secrets  
+- Explicit rate limits  
+- Manual approval for sensitive automation  
 
-Fail safely (WordPress continues working if Supabase is unavailable)
+**Result:** Scalable features without increasing risk.
 
-Security Model
+---
 
-Security was treated as a first-class feature:
+## Results & Impact
 
-Supabase Row-Level Security (RLS) per user
+**Technical Impact:**
 
-No shared service roles in frontend code
+- Added analytics without touching frontend UX  
+- Enabled cron-based automation safely  
+- Introduced cost transparency across AI and SMS  
 
-Environment variables for all secrets
+**Business Impact:**
 
-Explicit rate limits
+- Predictable margins  
+- Safer upsells based on usage  
+- Faster feature iteration without breaking billing  
 
-Manual approval for sensitive automation
+**Strategic Impact:**
 
-Result: Scalable features without scaling risk.
+- Platform now extensible for multi-source reviews, competitor benchmarking, and advanced sentiment analysis  
 
-Results & Impact
-Technical Impact
+---
 
-Added analytics without touching frontend UX
+## Key Learnings
 
-Enabled cron-based automation safely
+- Legacy systems are **not liabilities** if respected  
+- Cost tracking is as important as **feature velocity**  
+- AI features must be **constrained by design**  
+- Hybrid architectures **reduce risk** in live SaaS products  
 
-Introduced cost transparency across AI and SMS
+---
 
-Business Impact
+## Next Steps (Scaling Further)
 
-Predictable margins
+- Introduce business-level multi-tenancy (agency accounts)  
+- Expand ingestion to multiple review platforms  
+- Automate competitor benchmarking  
+- Add AI-assisted prioritization (not auto-action)  
 
-Safer upsells based on usage
+---
 
-Faster feature iteration without breaking billing
-
-Strategic Impact
-
-Platform now extensible for multi-source reviews
-
-Competitor benchmarking
-
-Advanced sentiment analysis
-
-Key Learnings
-
-Legacy systems are not liabilities if respected
-
-Cost tracking is as important as feature velocity
-
-AI features must be constrained by design
-
-Hybrid architectures reduce risk in live SaaS products
-
-Next Steps (Scaling Further)
-
-Introduce business-level multi-tenancy (agency accounts)
-
-Expand ingestion to multiple review platforms
-
-Automate competitor benchmarking
-
-Add AI-assisted prioritization (not auto-action)
-
-Why This Case Study Matters
+## Why This Case Study Matters
 
 This project demonstrates:
 
-Real production experience
+- Real production experience  
+- Constraint-driven engineering  
+- Security-first automation  
+- Business-aligned technical decisions  
 
-Constraint-driven engineering
-
-Security-first automation
-
-Business-aligned technical decisions
-
-It reflects an approach to scaling systems that already make money while minimizing risk.
+It reflects an approach to scaling **systems that already generate revenue**, while minimizing risk.
