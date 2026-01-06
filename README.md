@@ -2,28 +2,32 @@
 
 ![Reputera.se - Online Reputation Management for Swedish Businesses](https://reputera.se/wp-content/uploads/2026/01/Screenshot-2026-01-06-at-11.30.12.png)  
 
-Reputera Portfolio
-Hybrid Architecture • AI Automation • Secure SaaS Engineering
+# Reputera Portfolio  
+**Hybrid Architecture • AI Automation • Secure SaaS Engineering**
 
-Welcome to the Reputera.se  Portfolio, a curated overview of my work modernizing a live WordPress SaaS into a secure, AI‑powered, analytics‑driven platform.
-This repository highlights constraint‑driven engineering, hybrid architecture, and production‑grade automation designed for real customers and real revenue.
+Welcome to the **Reputera.se Portfolio**, a curated overview of my work modernizing a live WordPress SaaS into a **secure, AI‑powered, analytics‑driven platform**.  
+This repository highlights **constraint‑driven engineering**, **hybrid architecture**, and **production‑grade automation** designed for real customers and real revenue.
 
-🚀 Project Overview
-Reputera.se is an Online Reputation Management (ORM) platform serving Swedish SMBs—craftsmen, contractors, and local service providers.
-My role was to evolve the platform from a legacy WordPress setup into a scalable, secure, AI‑augmented system without disrupting existing users or subscriptions.
+---
 
-Core Outcomes
-Introduced a Supabase backend while keeping WordPress fully operational
+## 🚀 Project Overview
 
-Built AI‑driven workflows using Claude Pro + DeepSeek
+**Reputera.se** is an Online Reputation Management (ORM) platform serving Swedish SMBs—craftsmen, contractors, and local service providers.  
+My role was to evolve the platform from a legacy WordPress setup into a **scalable, secure, AI‑augmented system** without disrupting existing users or subscriptions.
 
-Implemented SMS automation with 46elks and strict plan‑based usage limits
+**Core outcomes:**
 
-Added cost tracking, analytics, and operational dashboards
+- Introduced a **Supabase backend** while keeping WordPress fully operational  
+- Built **AI‑driven workflows** using Claude Pro + DeepSeek  
+- Implemented **SMS automation** with 46elks and strict plan‑based usage limits  
+- Added **cost tracking, analytics, and operational dashboards**  
+- Ensured **zero downtime, no broken subscriptions, and safe multi‑tenancy**
 
-Ensured zero downtime, no broken subscriptions, and safe multi‑tenancy
+---
 
-📂 Repository Structure
+## 📂 Repository Structure
+
+
 reputera-portfolio/
 ├── README.md              # Portfolio landing page (this file)
 ├── CASE_STUDY.md          # Full case study (problem → solution → results)
@@ -36,6 +40,7 @@ reputera-portfolio/
 └── src/
     ├── public_components/ # UI templates & snippets (no secrets)
     └── example_workflows/ # Pseudocode, workflows, Mermaid diagrams
+
 
 
     
@@ -65,38 +70,70 @@ UI, authentication, subscriptions, payments
 
 Supabase = Execution Plane  
 Automation, analytics, cost tracking, AI workflows
-
 📊 Portfolio Highlights
-AI Cost Control
-Hard caps per user & per plan
+Hybrid Architecture Design
+Integrated a modern Supabase backend with the existing WordPress frontend
 
-Real‑time usage logs
+Avoided a risky big‑bang rewrite, focusing on incremental, low‑risk modernization
 
-Prevents runaway costs and protects margins
+AI Workflow Orchestration
+Designed safe multi‑model workflows using Claude Pro + DeepSeek
 
-SMS Automation
-Daily & weekly usage aggregation
+Used explicit orchestration, guardrails, and logging instead of “black‑box” AI calls
 
-Plan‑based limits
+Kept AI in a supporting role—augmenting, not replacing, core logic
 
-Transparent cost reporting
+Cost Control, Tracking, and Dashboards
+Enforced per‑user and per‑plan usage caps for AI and SMS
 
-Data Sync
-WordPress → Supabase via event‑driven REST bridge
+Implemented usage and cost tracking in Supabase
 
-Zero downtime, no broken subscriptions
+Built operational dashboards for:
 
-Automation Layer
-Cron‑based ingestion from Google, Trustpilot, Facebook, Reco.se
+AI token usage & spend
 
-Automated review campaigns via 46elks
+SMS volume & cost per plan
 
-Scalability
-Multi‑platform review ingestion
+Threshold alerts for anomaly detection
 
-Future‑ready for agency accounts
+Security‑First Multi‑Tenancy
+Used Row‑Level Security (RLS) for tenant‑safe data isolation
 
-Competitor analytics & sentiment analysis planned
+Stored all secrets in environment variables (.env), never in code or UI components
+
+Implemented fail‑safe behavior: the WordPress frontend continues functioning even if the backend is temporarily unavailable
+
+Automated Review Campaigns
+Cron‑based ingestion from:
+
+Google
+
+Trustpilot
+
+Facebook
+
+Reco.se (coming soon)
+
+Targeted SMS via 46elks for:
+
+Review request campaigns
+
+Follow‑up reminders
+
+Plan‑aware volume throttling
+
+Operational Resilience
+Zero planned downtime during rollout of the hybrid architecture
+
+No broken subscriptions or payment interruptions
+
+Clear upgrade path for:
+
+Agency accounts
+
+Competitor analytics
+
+Advanced sentiment analysis and prioritization logic
 
 👋 About Me
 Hi, I'm Pierre A. Camilo — an AI Engineer and SaaS Orchestrator.
