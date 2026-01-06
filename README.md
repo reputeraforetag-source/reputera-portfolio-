@@ -1,3 +1,32 @@
+# 👋 Pierre (Rongert) Camilo
+**AI-Native Systems Architect & Builder**  
+📍 Stockholm, Sweden | 🌐 100% Remote  
+📧 pierrecamilojob@gmail.com | 💼 [LinkedIn Profile](https://linkedin.com/in/pierrecamilo)
+
+---
+
+## 🎯 Professional Profile & Mission
+I architect and ship complete, functional systems by combining **founder-grade ownership** with an **AI-first development methodology** (often called "Vibe Coding"). My process: define the vision and high-level architecture, then leverage AI as the core execution layer to build, iterate, and deliver.
+
+This repository documents my flagship project, **Reputera.se**, which serves as a concrete, public portfolio of this workflow. I am now focusing this AI-native, product-minded approach on game development.
+
+### Core Competencies
+*   **AI-First Development (Vibe Coding):** Directing LLMs (Claude, Cursor) to generate, review, and integrate production code.
+*   **Solo, End-to-End Execution:** Full ownership from concept and system design to launch and iteration.
+*   **Systems Architecture:** Designing scalable data models, secure APIs, and cohesive user flows.
+*   **Rapid Prototyping:** Daily iteration focused on core feel and user experience.
+*   **Game Design Thinking:** Analyzing loops, motivation, and "the fun" from a systems perspective.
+
+**I am actively seeking a full-time, remote role as a Vibe Coder / AI-Native Game Developer or Systems-Focused Game Director.**
+
+**[Let's connect: pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)**
+
+---
+
+**Below is the detailed case study and documentation for the Reputera.se project.**
+
+
+
 [Reputera.se](https://reputera.se) Portfolio
 
 ![Reputera.se - Online Reputation Management for Swedish Businesses](https://reputera.se/wp-content/uploads/2026/01/Screenshot-2026-01-06-at-11.30.12.png)  
