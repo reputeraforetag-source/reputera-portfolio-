@@ -27,7 +27,7 @@ This repository documents my flagship project, **Reputera.se**, which serves as 
 
 
 
-[Reputera.se](https://reputera.se) Portfolio
+[Reputera.se](https://reputera.se) 
 
 ![Reputera.se - Online Reputation Management for Swedish Businesses](https://reputera.se/wp-content/uploads/2026/01/Screenshot-2026-01-06-at-11.30.12.png)  
 
