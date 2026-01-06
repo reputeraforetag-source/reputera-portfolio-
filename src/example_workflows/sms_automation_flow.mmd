@@ -1,0 +1,5 @@
+flowchart TD
+    A[Trigger: review reminder] --> B[Check user SMS quota]
+    B -->|Quota OK| C[Send SMS via 46elks API]
+    C --> D[Log to Supabase sms_usage_log]
+    B -->|Quota Exceeded| E[Alert Admin & Skip SMS]
