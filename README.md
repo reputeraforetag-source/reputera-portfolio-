@@ -24,7 +24,6 @@ Added cost tracking, analytics, and operational dashboards
 Ensured zero downtime, no broken subscriptions, and safe multi‑tenancy
 
 📂 Repository Structure
-Kod
 reputera-portfolio/
 ├── README.md              # Portfolio landing page (this file)
 ├── CASE_STUDY.md          # Full case study (problem → solution → results)
@@ -37,6 +36,8 @@ reputera-portfolio/
 └── src/
     ├── public_components/ # UI templates & snippets (no secrets)
     └── example_workflows/ # Pseudocode, workflows, Mermaid diagrams
+
+
     
 🛠 Technology Stack
 Layer	Technology / Rationale
