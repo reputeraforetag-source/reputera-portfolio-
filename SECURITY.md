@@ -1,233 +1,97 @@
-Security Model — Reputera.se
+Case Study: Reputera.se
 
-This document outlines the security principles, threat model, and controls used in the Reputera.se architecture.
+Hybrid Backend & AI Integration in a Live WordPress SaaS
 
-Security is treated as a core product feature, not an afterthought — especially given the use of AI, SMS, and payment-linked automation.
+## Executive Summary
+Reputera.se is a production Online Reputation Management (ORM) SaaS serving Swedish SMBs.  
+This case study documents extending a live WordPress SaaS with a modern Supabase backend to support:
 
-1. Security Philosophy
+- AI-driven features with strict cost controls  
+- SMS automation with per-plan limits  
+- Advanced analytics and usage tracking  
+- Scalable automation without frontend rewrites  
 
-The system is designed around four core principles:
+Executed under real production constraints: paying users, active subscriptions, zero downtime.
 
-Least privilege by default
+## The Problem
+Existing setup:
 
-Explicit tenant isolation
+- WordPress frontend  
+- Paid Member Subscriptions (PMS)  
+- PayPal payments  
+- SMS automation via 46elks  
+- AI-powered responses via DeepSeek  
 
-Cost & abuse prevention as security
+Challenges:
 
-Human-in-the-loop for high-risk actions
+- Cost visibility for AI and SMS usage  
+- Reliable analytics across users and time  
+- Scalable automation (cron jobs, aggregation, alerts)  
+- Safe backend expansion without destabilizing WordPress  
 
-Automation is intentionally constrained to preserve trust and prevent silent failure modes.
+## Constraints
 
-2. Threat Model
-Primary risks addressed
+- WordPress remains the system of record  
+- Payments and memberships stay in PMS  
+- No auto-deployments  
+- User-level usage limits enforced  
+- Human-in-the-loop for high-risk automation  
 
-Cross-tenant data access
+## Architectural Decision: Hybrid Model
 
-API key leakage
+| Layer       | Responsibility |
+|------------|----------------|
+| WordPress  | Users, authentication, UI, subscriptions, payments |
+| Supabase   | Data analytics, cost tracking, automation, cron jobs |
+| REST Bridge| Controlled data sync between systems |
 
-Cost abuse (AI / SMS)
+### Why Supabase?
 
-Unauthorized automation
+- Postgres with relational modeling  
+- Row-Level Security (RLS) for multi-tenancy  
+- Edge Functions for serverless automation  
+- Predictable cost model  
 
-Accidental data exposure via analytics
+## Key Implementation Areas
 
-Out of scope
+### A. Usage & Cost Tracking (AI + SMS)
+Supabase tables:
 
-End-user device compromise
+- ai_usage_log  
+- sms_usage_log 
+- daily_stats
 
-Browser-level attacks outside the application domain
+Logs include user ID, timestamps, and costs → enforce hard caps, forecast margins, prevent abuse.
 
-3. Identity & Access Control
-Source of truth
+### B. AI Integration (DeepSeek)
+- Centralized calls via WordPress REST endpoint  
+- Monthly caps enforced per plan  
+- Human approval for sensitive actions  
 
-WordPress is the authoritative identity provider
+### C. SMS Automation (46elks)
+- Credentials stored in WordPress options  
+- Daily/weekly limits per plan  
+- One-time review tokens with expiry → GDPR compliant  
 
-Supabase does not expose Auth directly to end users
+### D. Data Synchronization (WordPress → Supabase)
+- Sync new users, usage events, review activity  
+- Push only required data, fail-safe design  
 
-Identity mapping
+## Security Model
+- Row-Level Security per user  
+- No shared service roles in frontend code  
+- Environment variables for secrets  
+- Rate limits & manual approvals  
 
-All Supabase records reference wp_user_id
+## Results & Impact
 
-No duplicated user tables
+**Technical:** Analytics without frontend changes, safe automation, cost transparency.  
+**Business:** Predictable margins, faster iteration, safe upsells.  
+**Strategic:** Extensible for multi-source reviews, competitor benchmarking, sentiment analysis.  
 
-No shared service accounts per user
+## Key Learnings
+- Respect legacy systems  
+- Cost tracking = feature velocity  
+- AI must be constrained  
+- Hybrid architectures reduce risk  
 
-This prevents:
-
-Identity drift
-
-Orphaned access
-
-Conflicting permission models
-
-4. Row-Level Security (RLS)
-
-Supabase RLS is the primary enforcement mechanism for data isolation.
-
-Core rule pattern
-
-Every user-scoped table enforces:
-
-wp_user_id = current_setting('request.jwt.claim.wp_user_id')::bigint
-
-Guarantees
-
-Users can only read/write their own data
-
-Aggregations remain tenant-safe
-
-Accidental leaks via views are prevented
-
-RLS is non-optional and enforced on all relevant tables.
-
-5. API & Integration Security
-WordPress ↔ Supabase communication
-
-Server-to-server only
-
-No Supabase keys exposed to browsers
-
-Requests validated and signed
-
-REST bridge safeguards
-
-Input validation
-
-Idempotent requests
-
-Rate limiting per endpoint
-
-Graceful failure handling
-
-Supabase is never called directly from frontend JavaScript.
-
-6. Secrets & Credential Handling
-Storage rules
-
-No secrets in repositories
-
-No secrets in client-side code
-
-No secrets in logs
-
-Credential locations
-Credential	Storage
-AI API keys	Environment variables
-SMS credentials	WordPress options (server-only)
-Supabase keys	Server environment variables
-
-A .env.example file documents required variables without values.
-
-7. AI & SMS Abuse Prevention
-
-AI and SMS are treated as billable attack surfaces.
-
-Controls in place
-
-Per-plan usage caps
-
-Daily & weekly SMS limits
-
-Monthly AI response limits
-
-Pre-call quota checks
-
-All usage logged before execution
-
-Why this matters
-
-Cost abuse is a security incident, not just a billing issue.
-
-8. Human-in-the-Loop Controls
-
-Certain actions are intentionally not automated:
-
-High-risk AI responses
-
-Bulk messaging
-
-Destructive data operations
-
-Plan override logic
-
-These require explicit human approval to:
-
-Prevent brand damage
-
-Avoid legal exposure
-
-Maintain customer trust
-
-9. Logging & Observability
-Logged events
-
-AI usage
-
-SMS usage
-
-Sync failures
-
-Rate-limit violations
-
-Logging principles
-
-No PII in logs
-
-No credentials in logs
-
-Logs are append-only
-
-Logs support:
-
-Auditing
-
-Debugging
-
-Incident response
-
-10. Failure & Containment Strategy
-If Supabase is unavailable
-
-WordPress continues to operate
-
-Payments and memberships unaffected
-
-Automation pauses safely
-
-If an integration misbehaves
-
-Feature is disabled
-
-No cascading failures
-
-Manual intervention possible
-
-The system prioritizes containment over recovery speed.
-
-11. Data Ownership & Compliance
-
-Customers retain ownership of their data
-
-Data is not resold or repurposed
-
-Usage data is collected only for service delivery
-
-Design choices are aligned with GDPR principles:
-
-Data minimization
-
-Purpose limitation
-
-Access transparency
-
-12. Security as a Scaling Enabler
-
-Security decisions in this system are designed to:
-
-Support future agency accounts
-
-Enable safe automation
-
-Allow feature expansion without re-architecture
-
-Security is what allows the platform to grow without fear.
