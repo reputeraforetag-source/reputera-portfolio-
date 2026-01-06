@@ -229,18 +229,19 @@ GROUP BY tenant_id, DATE(created_at)
 ORDER BY day DESC;
 
 Alert Configuration
+
 yaml
 # alerts.yaml
 thresholds:
   starter_plan:
-    daily_ai_max: $5.00
+    daily_ai_max: xxx sek
     daily_sms_max: 20 messages
-    monthly_total_max: $50.00
+    monthly_total_max: xxx sek
   
   business_plan:
     daily_ai_max: $25.00
     daily_sms_max: 100 messages
-    monthly_total_max: $250.00
+    monthly_total_max: xxx sek
 
 notifications:
   - type: email
