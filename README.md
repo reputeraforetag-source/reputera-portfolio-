@@ -33,6 +33,7 @@ This repository documents my flagship project, **Reputera.se**, which serves as 
 
 
 # 🚀 Reputera Portfolio: Hybrid SaaS Architecture & AI Automation MVP
+An intelligent platform that helps artisans automatically collect, manage, and respond to reviews to increase visibility and revenue.
 
 > **Production-Grade Online Review Management (ORM) SaaS • Zero Downtime Modernization • Secure Multi-Tenancy**
 
