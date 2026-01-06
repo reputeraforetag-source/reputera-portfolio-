@@ -1,6 +1,6 @@
-# 👋 Pierre (Rongert) Camilo
+# 👋 Pierre A. Camilo
 **AI-Native Systems Architect & Builder**  
-📍 Stockholm, Sweden | 🌐 100% Remote  
+📍 Malaga, Spain & Stockholm, Sweden | 🌐 100% Remote  
 📧 pierrecamilojob@gmail.com | 💼 [LinkedIn Profile](https://linkedin.com/in/pierrecamilo)
 
 ---
