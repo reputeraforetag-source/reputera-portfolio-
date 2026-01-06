@@ -24,7 +24,6 @@ Existing setup:
 
 Challenges:
 
-- Cost visibility for AI and SMS usage  
 - Reliable analytics across users and time  
 - Scalable automation (cron jobs, aggregation, alerts)  
 - Safe backend expansion without destabilizing WordPress  
