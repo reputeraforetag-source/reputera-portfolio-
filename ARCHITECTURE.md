@@ -1,60 +1,46 @@
-rchitecture Overview — Reputera.se
+# Architecture Overview — Reputera.se
 
 This document describes the system architecture behind Reputera.se, focusing on design decisions, data flow, and scalability under real production constraints.
 
 The architecture reflects a core principle:
 
-Modernize without breaking what already works.
+> Modernize without breaking what already works.
 
-1. Architectural Goals
+---
+
+## 1. Architectural Goals
 
 The architecture was designed to satisfy five non-negotiable goals:
 
-Zero disruption to a live, revenue-generating WordPress system
+1. Zero disruption to a live, revenue-generating WordPress system  
+2. Strict cost control for AI and SMS usage  
+3. Scalable automation without frontend rewrites  
+4. Strong multi-tenant security from day one  
+5. Future-proof data modeling for multi-source expansion  
 
-Strict cost control for AI and SMS usage
+---
 
-Scalable automation without frontend rewrites
+## 2. High-Level System Model
 
-Strong multi-tenant security from day one
-
-Future-proof data modeling for multi-source expansion
-
-2. High-Level System Model
-
-Reputera.se uses a hybrid architecture combining a legacy frontend with a modern backend.
-
-[ Customer Browser ]
-        |
-        v
-[ WordPress Frontend ]
-- UI & Dashboard
-- Authentication
-- Memberships (PMS)
-- Payments (PayPal)
-        |
-        | REST (Server-to-Server)
-        v
-[ Integration Layer ]
-- Custom WP REST endpoints
-- Validation & limits
-- Fail-safe logic
-        |
-        v
-[ Supabase Backend ]
-- Postgres (RLS)
-- Edge Functions (cron)
-- Analytics & aggregation
+Reputera.se uses a **hybrid architecture** combining a legacy frontend with a modern backend.
 
 
+flowchart TD
+    A[Customer Browser] --> B[WordPress Frontend]
+    B --> C[Integration Layer]
+    C --> D[Supabase Backend]
+    D --> E[AI Orchestration (Claude + DeepSeek)]
+    D --> F[SMS Automation (46elks)]
+    D --> G[Admin Dashboard (Analytics & Alerts)]
+    
 Key idea:
-WordPress remains the control plane. Supabase is the data & automation plane.
+
+WordPress = control plane
+
+Supabase = data & automation plane
 
 3. Why WordPress Remains the System of Record
-
-Replacing WordPress would introduce unnecessary risk.
-
-WordPress is responsible for:
+Replacing WordPress would introduce unnecessary risk. WordPress is responsible for:
 
 User accounts & authentication
 
@@ -66,23 +52,21 @@ Frontend rendering
 
 Existing plugins & workflows
 
-Why this matters
+Why this matters:
 
 Billing logic is fragile
 
 Payment failures are expensive
 
-Rewrites slow down product velocity
+Rewrites slow product velocity
 
 Decision:
-Do not duplicate user or payment state in Supabase.
-Instead, reference WordPress user IDs (wp_user_id) everywhere.
+Do not duplicate user or payment state in Supabase. Reference wp_user_id everywhere.
 
 4. Supabase as the Backend Engine
+Supabase was introduced to handle workloads WordPress is not designed for.
 
-Supabase was introduced to handle workloads that WordPress is not designed for.
-
-Supabase responsibilities:
+Responsibilities:
 
 Usage & cost tracking (AI, SMS)
 
@@ -94,7 +78,7 @@ Secure multi-tenant data access
 
 Future API integrations
 
-Key Supabase features used:
+Key Features Used:
 
 Postgres for relational modeling
 
@@ -105,7 +89,7 @@ Edge Functions for cron-like automation
 Views for read-optimized analytics
 
 5. Data Ownership & Multi-Tenancy
-User identity model
+User identity model:
 
 WordPress user = source of truth
 
@@ -113,42 +97,38 @@ Supabase rows reference wp_user_id
 
 No Supabase Auth exposed to end users
 
-RLS principle
+RLS principle:
 
-Every table enforces:
+Every table enforces: row.wp_user_id = request.wp_user_id
 
-row.wp_user_id = request.wp_user_id
-
-
-This ensures:
+Ensures:
 
 No cross-tenant access
 
 Safe analytics queries
 
-Future support for agencies / parent accounts
+Future support for agency / parent accounts
 
 6. Integration Layer (WordPress ↔ Supabase)
-
 A custom REST bridge connects WordPress to Supabase.
 
-Why a bridge layer exists
+Purpose:
 
-Prevents exposing Supabase directly
+Prevent exposing Supabase directly
 
-Allows validation and rate limiting
+Allow validation & rate limiting
 
-Enables graceful failure
+Enable graceful failure
 
-Design principles
+Design Principles:
 
 Push events, not full state
 
 Idempotent requests
 
-Fail-safe (WP continues working if Supabase is down)
+Fail-safe (WP continues if Supabase is down)
 
-Example synced events
+Example Synced Events:
 
 AI response generated
 
@@ -159,10 +139,9 @@ Review imported
 Daily stats aggregation trigger
 
 7. Usage & Cost Tracking Architecture
-
 Cost visibility was a core architectural driver.
 
-Logging model
+Logging Model:
 
 Every AI call → ai_usage_log
 
@@ -170,7 +149,7 @@ Every SMS → sms_usage_log
 
 Daily aggregation → daily_stats
 
-Why this matters
+Benefits:
 
 Predictable margins
 
@@ -180,10 +159,10 @@ Upsell intelligence
 
 Abuse prevention
 
-AI and SMS are treated as billable resources, not features.
+AI and SMS are treated as billable resources, not just features.
 
 8. Automation & Cron Strategy
-What runs automatically
+Automatic Jobs:
 
 Daily stats aggregation
 
@@ -193,13 +172,9 @@ Competitor tracking (planned)
 
 Usage threshold checks
 
-Where it runs
+Where it runs: Supabase Edge Functions (scheduled)
 
-Supabase Edge Functions (scheduled)
-
-Never in the WordPress request lifecycle
-
-Why
+Why:
 
 Keeps frontend fast
 
@@ -208,20 +183,19 @@ Prevents timeout risks
 Centralizes automation logic
 
 9. AI System Placement
+AI is intentionally isolated from WordPress.
 
-AI is intentionally not embedded deeply into WordPress.
+Design Choices:
 
-Design choices
+Controlled REST endpoint for AI calls
 
-AI calls go through a controlled REST endpoint
-
-No background AI without user action or approval
+No background AI without user action / approval
 
 Hard caps per subscription plan
 
-All usage logged before response is returned
+Usage logged before response returned
 
-This prevents:
+Prevents:
 
 Silent cost overruns
 
@@ -230,16 +204,13 @@ Unpredictable behavior
 Trust erosion with customers
 
 10. Failure Modes & Resilience
-
-The system is designed to fail safely.
-
 If Supabase is unavailable:
 
 WordPress continues operating
 
-Payments and memberships unaffected
+Payments & memberships unaffected
 
-Automation pauses, not breaks
+Automation pauses, does not break
 
 If integrations fail:
 
@@ -249,11 +220,10 @@ No cascading failures
 
 Human intervention possible
 
-This is critical in small-team SaaS environments.
+Critical for small-team SaaS environments
 
 11. Scalability Path
-
-This architecture supports future growth without rework:
+Supports future growth without frontend rework:
 
 Multi-platform reviews (Google, Facebook, Trustpilot)
 
@@ -265,12 +235,7 @@ Competitor benchmarking
 
 External dashboards
 
-The frontend does not need to change to support these.
-
 12. Architectural Philosophy
-
-This system was designed around one core belief:
-
 Good architecture reduces decisions later.
 
 By separating:
@@ -281,4 +246,4 @@ UI vs automation
 
 Billing vs analytics
 
-…the platform can evolve without accumulating risk.
+…the platform evolves without accumulating risk.
