@@ -1,0 +1,7 @@
+flowchart TD
+    A[User requests AI response] --> B[WordPress REST Endpoint]
+    B --> C[Validate user plan & limits]
+    C --> D[Log request to Supabase ai_usage_log]
+    D --> E[Call DeepSeek API via Claude]
+    E --> F[Return response to user]
+    F --> G[Update usage stats in daily_stats table]
