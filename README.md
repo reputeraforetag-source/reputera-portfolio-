@@ -215,6 +215,7 @@ supabase functions deploy cost-tracker
 📊 Monitoring & Cost Control
 Real-Time Cost Dashboard
 sql
+
 -- Daily spending per tenant
 SELECT 
     tenant_id,
@@ -226,6 +227,7 @@ FROM events
 WHERE created_at >= NOW() - INTERVAL '30 days'
 GROUP BY tenant_id, DATE(created_at)
 ORDER BY day DESC;
+
 Alert Configuration
 yaml
 # alerts.yaml
@@ -264,6 +266,7 @@ System Uptime	99.5%	99.99%	+0.49%
 Cost Predictability	Variable	Fixed per tenant	100% control
 Deployment Speed	Weeks	Hours	10x faster
 Mean Time to Recovery	4 hours	15 minutes	16x faster
+
 🤝 Collaboration & Contact
 This repository demonstrates production-ready patterns for:
 
