@@ -3,7 +3,7 @@
 ![Reputera.se - Online Reputation Management for Swedish Businesses](https://reputera.se/wp-content/uploads/2026/01/Screenshot-2026-01-06-at-11.30.12.png)  
 
 
-# 🚀 Reputera Portfolio: Hybrid SaaS Architecture & AI Automation
+# 🚀 Reputera Portfolio: Hybrid SaaS Architecture & AI Automation MVP
 
 > **Production-Grade Online Review Management (ORM) SaaS • Zero Downtime Modernization • Secure Multi-Tenancy**
 
