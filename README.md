@@ -285,12 +285,13 @@ Architecture consulting
 
 SaaS acquisition due diligence
 
-📚 Documentation Links
-Document	Description
-CASE_STUDY.md	Business impact & migration timeline
-ARCHITECTURE.md	Technical architecture deep dive
-SECURITY.md	Security patterns & compliance
-ROADMAP.md	Future enhancements & scaling
+## 📚 Documentation
+
+- [**CASE_STUDY.md**](https://github.com/reputeraforetag-source/reputera-portfolio-/blob/main/CASE_STUDY.md) - Business impact & migration timeline
+- [**ARCHITECTURE.md**](https://github.com/reputeraforetag-source/reputera-portfolio-/blob/main/ARCHITECTURE.md) - Technical architecture deep dive
+- [**SECURITY.md**](https://github.com/reputeraforetag-source/reputera-portfolio-/blob/main/SECURITY.md) - Security patterns & compliance
+- [**ROADMAP.md**](https://github.com/reputeraforetag-source/reputera-portfolio-/blob/main/ROADMAP.md) - Future enhancements & scaling
+
 ⭐ Star this repo if you found these patterns useful!
 
 © 2024 Pierre A. Camilo. Production patterns from Reputera.se
