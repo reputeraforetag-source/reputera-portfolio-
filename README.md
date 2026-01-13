@@ -11,7 +11,7 @@ I architect and ship complete, functional systems by combining **founder-grade o
 This repository documents my flagship project, **Reputera.se**, which serves as a concrete, public portfolio of this workflow. I am now focusing this AI-native, product-minded approach on game development.
 
 ### Core Competencies
-*   **AI-First Development (Vibe Coding):** Directing LLMs (Claude,) to generate, review, and integrate production code.
+*   **AI-First Development:** Directing LLMs (Claude,) to generate, review, and integrate production code.
 *   **Solo, End-to-End Execution:** Full ownership from concept and system design to launch and iteration.
 *   **Systems Architecture:** Designing scalable data models, secure APIs, and cohesive user flows.
 *   **Rapid Prototyping:** Daily iteration focused on core feel and user experience.
