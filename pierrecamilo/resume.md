@@ -1,7 +1,7 @@
 # Pierre Camilo
 ## Prompt Engineer & AI Workflow Specialist
 
-**Location:** Stockholm, Sweden  
+**Location:** Stockholm, Sweden & Malaga. Spain 
 **Remote:** EU Ready  
 **Available:** Immediately  
 **Phone:** +34 623 038 590  
