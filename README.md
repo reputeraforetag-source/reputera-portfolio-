@@ -1,7 +1,14 @@
-# 👋 Pierre A. Camilo
-**WordPress Specialist & Customer Success | 5+ Years High-Volume Support**
-📍 Stockholm, Sweden (EU Remote) | 🌐 100% Remote
-📧 pierrecamilojob@gmail.com | 💼 linkedin.com/in/pierrealexandercamilo
+👋 Pierre A. Camilo
+Prompt Engineer & WordPress Specialist | Reputera.se Founder
+📍 Stockholm, Sweden (EU Remote) | pierrecamilojob@gmail.com
+
+🎯 Now Targeting: Pencil Prompt Engineer, Automattic Happiness Engineer
+✅ Built AI-first SaaS (reputera.se) - daily prompt engineering for SMB content
+✅ 9 months shipping multimodal workflows (Claude + Midjourney + Supabase)
+✅ 90% FCR high-volume support (mResell 3+ years)
+✅ Native Swedish + Fluent English
+
+Live: reputera.se | GitHub: pierrecamilo/reputera-ai-prompts
 
 ---
 
