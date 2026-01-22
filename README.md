@@ -1,95 +1,158 @@
-👋 Pierre A. Camilo
-Prompt Engineer & WordPress Specialist | Reputera.se Founder
-📍 Stockholm, Sweden (EU Remote) | pierrecamilojob@gmail.com
+![Prompt Engineer – Production Experience](https://img.shields.io/badge/Prompt_Engineer-Production_Experience-0A66C2?style=for-the-badge)
+![Customer Facing AI](https://img.shields.io/badge/Customer-Facing_AI-0A8754?style=for-the-badge)
+![WordPress Production](https://img.shields.io/badge/WordPress-Production_Experience-21759B?style=for-the-badge)
 
-🎯 Now Targeting: Pencil Prompt Engineer, Automattic Happiness Engineer
-✅ Built AI-first SaaS (reputera.se) - daily prompt engineering for SMB content
-✅ 9 months shipping multimodal workflows (Claude + Midjourney + Supabase)
-✅ 90% FCR high-volume support (mResell 3+ years)
-✅ Native Swedish + Fluent English
+# 👋 Pierre A. Camilo  
+**Prompt Engineer · AI Workflow Builder · WordPress Specialist**  
+Founder @ **Reputera.se**
 
-Live: reputera.se | GitHub: pierrecamilo/reputera-ai-prompts
+📍 Stockholm, Sweden (EU · Remote)  
+📧 pierrecamilojob@gmail.com  
+🌐 https://reputera.se  
+💻 GitHub: pierrecamilo/reputera-ai-prompts
 
 ---
 
 ## 🎯 Professional Focus
-WordPress hands-on + proven customer support track record. Built Reputera.se WP frontend while achieving 90%+ first-contact resolution at mResell (3+ years). Targeting Automattic Happiness Engineer, Finom Customer Care, Lodgify CS roles.
 
-**Actively seeking full-time remote Customer Success / Happiness Engineer positions ($40k-$65k USD range)**
+Prompt Engineer with **hands-on production experience** designing, testing, and shipping **customer-facing AI systems**.
 
-### Core Strengths
-✅ **WordPress**: Theme customization, WooCommerce, plugin integrations (Reputera.se live)
-✅ **Support**: Phone/chat/email - 90% FCR, 40-60 daily queries (mResell)
-✅ **Technical**: AnyTech365 IT support, Salesforce CRM, payment troubleshooting
-✅ **Languages**: Native Swedish + Fluent English
-✅ **Onboarding**: SMB client training, feature adoption (Reputera.se)
+I build prompts that:
+- Work under real user pressure
+- Stay on-brand and safe
+- Scale across support, content, and ops
+- Reduce human workload without breaking trust
 
----
-
-## 🚀 Featured Project: Reputera.se WordPress Frontend
-Live WordPress site powering Swedish SMB reputation management.
-
-**Tech Used:**
-WordPress + Elementor Pro
-Custom theme CSS overrides
-Supabase REST API integration
-Lead capture forms + review widgets
-Paid Member Subscriptions plugin
-
-text
-
-**Live:** https://reputera.se
-[Screenshot of dashboard]
-
-text
-
-**Hands-on WP work:**
-- Custom landing pages for Swedish tradespeople
-- Form → Supabase sync via functions.php
-- Plugin conflict debugging
-- Client WP admin training sessions
+Actively targeting **Prompt Engineer / Happiness Engineer / AI Support Engineer** roles.
 
 ---
 
-## 📈 Support Metrics That Matter
-**mResell (3+ years e-commerce support)**
-90%+ First Contact Resolution
-40-60 daily phone/chat/email queries
-20% escalation reduction via process docs
-Payment dispute specialist
+## 🧠 Prompt Engineering (What I Actually Ship)
 
-text
+- Role-based & constraint-aware prompt design  
+- Deterministic outputs for SMB use cases  
+- Prompt chaining (analysis → generation → validation)  
+- Hallucination & edge-case mitigation  
+- Multimodal prompting (text + image)  
+- Prompt documentation & versioning  
 
-**AnyTech365 (Technical Support)**
-6/10 inbound call closure rate (top performer)
-Salesforce case management
-Complex IT/software troubleshooting
+**Models & Tools**
+- Claude (long-context reasoning)
+- GPT (instruction following & support flows)
+- Midjourney (prompt-controlled visual output)
+- Supabase (structured storage & retrieval)
+- WordPress (real-world deployment layer)
 
-text
+---
+
+## 🚀 Featured Project — Reputera.se (AI-first SaaS)
+
+**Live:** https://reputera.se  
+**Repo:** `reputera-ai-prompts`
+
+Reputera.se helps Swedish SMBs manage online reputation using **AI-assisted review analysis, response drafting, and recovery recommendations**.
+
+### Prompt Systems I Built
+- Review sentiment & risk classification
+- Brand-safe response generation
+- Escalation detection & human handoff logic
+- Customer follow-up & recovery prompts
+
+### Multimodal Workflows
+- Text reviews → structured insights (Supabase)
+- Prompt-controlled image generation (Midjourney)
+- AI outputs surfaced via WordPress frontend
+
+### Tech Stack
+- WordPress + Elementor Pro
+- Custom CSS & theme overrides
+- Supabase REST API
+- Lead capture forms & review widgets
+- Paid Member Subscriptions
+
+---
+
+## 📁 Prompt Case Studies (Recommended Review)
+
+> See `/prompts` folder in this repo
+
+**Included:**
+- `review_response_v3.md`  
+  → Inputs, constraints, failure cases, final prompt  
+- `sentiment_classifier.md`  
+  → Labeling logic, edge cases, validation rules  
+- `customer_recovery_flow.md`  
+  → Multi-step prompt chain with human handoff  
+
+Each file documents:
+- Problem
+- Prompt design
+- Iterations
+- Final production version
+
+---
+
+## 📊 Production Support Proof (Why My Prompts Hold Up)
+
+### mResell — E-commerce Support (3+ years)
+- **90%+ First Contact Resolution**
+- 40–60 phone/chat/email cases daily
+- 20% escalation reduction via process documentation
+- WooCommerce & payment dispute specialist
+
+### AnyTech365 — Technical Support
+- Top performer: **6/10 inbound call closure rate**
+- Salesforce case management
+- Complex IT & software troubleshooting
+
+> This background ensures my prompts survive real users, not demos.
+
+---
+
+## 🛠 Core Skill Set
+
+- Prompt Engineering (instruction design, constraints, safety)
+- AI Workflow Design (LLMs + APIs + storage)
+- Customer Support Systems
+- WordPress / WooCommerce
+- Salesforce CRM
+- Technical Troubleshooting
+- Client Onboarding & Education
+
+**Languages:**  
+🇸🇪 Native Swedish · 🇬🇧 Fluent English
 
 ---
 
 ## 🎯 Current Targets
-✅ Automattic Happiness Engineer ($52k-58k USD target)
-✅ Finom Customer Care Specialist (Swedish market)
-✅ Lodgify Customer Success (4 roles: Support/Connectivity/Onboarding/Payments)
-✅ Clipboard Health Client Support (EMEA)
 
-text
+- Prompt Engineer (Pencil, AI-first teams)
+- Automattic Happiness Engineer
+- Finom Customer Care Specialist (Nordics)
+- Lodgify Customer Success
+- Clipboard Health Client Support (EMEA)
+
+💼 Actively seeking **full-time remote roles**  
+💰 Target range: **$40k–$65k USD**
 
 ---
 
 ## 💼 Professional Experience
-**Customer Service Specialist** | mResell | 2020-2024
-High-volume WP/WooCommerce support for merchants
 
-**IT Analyst** | AnyTech365 | 2020-2021  
-Technical phone support + Salesforce
+**Founder** — Reputera.se | 2025–Present  
+AI-first reputation management platform  
+Prompt engineering · WordPress · Client onboarding
 
-**Founder** | Reputera.se | 2025-Present
-WordPress frontend + client onboarding
+**Customer Service Specialist** — mResell | 2020–2024  
+High-volume WooCommerce & merchant support
+
+**IT Analyst** — AnyTech365 | 2020–2021  
+Technical phone support · Salesforce · IT troubleshooting
 
 ---
 
-**Let's connect:** pierrecamilojob@gmail.com
-**Portfolio:** reputera.se (live WordPress site)
+## 🤝 Let’s Connect
+
+📧 **Email:** pierrecamilojob@gmail.com  
+🌐 **Portfolio:** https://reputera.se  
+💻 **Prompt Repo:** `reputera-ai-prompts`
