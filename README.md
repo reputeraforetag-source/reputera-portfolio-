@@ -9,7 +9,7 @@ Founder @ **Reputera.se**
 📍 Stockholm, Sweden (EU · Remote)  
 📧 pierrecamilojob@gmail.com  
 🌐 https://reputera.se  
-💻 GitHub: pierrecamilo/reputera-ai-prompts
+💻 GitHub: https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting
 
 ---
 
@@ -155,4 +155,4 @@ Technical phone support · Salesforce · IT troubleshooting
 
 📧 **Email:** pierrecamilojob@gmail.com  
 🌐 **Portfolio:** https://reputera.se  
-💻 **Prompt Repo:** `reputera-ai-prompts`
+💻 **Prompt Repo:** `advanced-ai-prompting`
