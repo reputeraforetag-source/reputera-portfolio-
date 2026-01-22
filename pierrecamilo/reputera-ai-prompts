@@ -1,0 +1,151 @@
+1. The Perfect SaaS Onboarding Flow Prompt
+text
+Act as a world-class UX designer specializing in SaaS conversion optimization. Design an onboarding flow for [PRODUCT] that achieves 40%+ activation rate.
+
+**CONTEXT:**
+- Target users: [DESCRIBE USER PERSONA]
+- Main value prop: [ONE SENTENCE VALUE]
+- Key activation metric: [METRIC LIKE "first report created"]
+
+**CREATE:**
+1. **Psychological hooks** (3 specific hooks using scarcity, social proof, curiosity)
+2. **Progress design** (how to visualize 3-5 step progression)
+3. **Friction reducers** (specific UI patterns to reduce drop-off)
+4. **"Aha moment" accelerator** (how to reach first value within 90 seconds)
+5. **Email sequence** (3 automated emails with exact subject lines and CTAs)
+
+**FORMAT:**
+- Wireframe descriptions with exact microcopy
+- Analytics events to track
+- Fallback flows for stuck users
+- Mobile vs desktop variations
+2. The Viral Content System Prompt
+text
+You are a viral growth strategist who has grown 3 companies to 1M+ users through organic content. Create a 30-day viral content system for [TOPIC/INDUSTRY].
+
+**GIVE ME:**
+1. **Content pillars matrix** (4 pillars x 3 formats = 12 content ideas)
+2. **Hook formula** that gets 70%+ watch time on first 3 seconds
+3. **Cross-platform adaptation** strategy for LinkedIn, Twitter, TikTok, Instagram
+4. **"Seed and spread" distribution** plan (how to plant content to go viral)
+5. **Repurposing workflow** (1 piece → 10 assets in 60 minutes)
+
+**INCLUDE:**
+- 5 example hooks that would stop scrollers
+- Comment engagement template to boost algorithm
+- Hashtag strategy for maximum discovery
+- Collaboration outreach script to piggyback on bigger accounts
+3. The $1M Sales Page Prompt
+text
+You are the world's highest-paid copywriter (charging $50k per sales page). Write a conversion-optimized sales page for [PRODUCT] targeting [AUDIENCE] that converts at 5%+.
+
+**USE THIS FRAMEWORK:**
+1. **PAS Formula Headline** (Pain-Agitate-Solution)
+2. **3-Part Value Stack** (features → benefits → transformation)
+3. **Objection Handling Matrix** (price, time, trust, complexity)
+4. **Social Proof Layering** (3 types: quantitative, qualitative, authority)
+5. **Urgency Architecture** (3 layers without being pushy)
+
+**MUST INCLUDE:**
+- 3 headline options tested against each other
+- Microcopy for every button (not just "Buy Now")
+- Pricing page psychologic (decoy, anchoring, framing)
+- Email sequence for cart abandoners (3 emails, 12 hours apart)
+- Guarantee that removes 100% of risk
+4. The Technical Debugging Super Prompt
+text
+You are a senior principal engineer with 20 years experience debugging complex distributed systems. Debug this issue:
+
+**SYMPTOM:** [Describe what's happening]
+**EXPECTED:** [What should happen]
+**ENVIRONMENT:** [Tech stack, versions, deployment]
+**ERROR LOGS:** [Paste relevant logs]
+**ALREADY TRIED:** [List attempted solutions]
+
+**FOLLOW THIS METHOD:**
+1. **Root cause hypothesis** (list 3 most likely causes ranked by probability)
+2. **Diagnostic steps** (exact commands to run, logs to check, metrics to monitor)
+3. **Isolation procedure** (how to reproduce in controlled environment)
+4. **Fix implementation** (code changes with explanations of side effects)
+5. **Regression prevention** (tests to add, monitoring to implement)
+
+**FORMAT RESPONSE AS:**
+- Executive summary (for stakeholders)
+- Technical deep dive (for engineers)
+- Rollback plan (if fix fails)
+- Post-mortem template
+5. The Product Strategy Master Prompt
+text
+Act as a former Amazon Principal Product Manager who has launched 7 products with $100M+ revenue. Create a complete product strategy for [IDEA/MARKET].
+
+**COVER THESE AREAS:**
+
+**1. Market Analysis:**
+- TAM/SAM/SOM calculation
+- Competitor positioning matrix (2x2 with 4 quadrants)
+- 3 uncontested blue ocean opportunities
+
+**2. Product Definition:**
+- North Star metric
+- Key input metrics (3-5)
+- Critical user journey (with drop-off points)
+- Moats to build (network effects, switching costs, etc.)
+
+**3. Go-to-Market:**
+- Beachhead segment (exact ICP)
+- Pricing strategy (3 options with pros/cons)
+- Launch sequencing (30/60/90 day plan)
+- Partnership opportunities (3 strategic partners)
+
+**4. Success Metrics:**
+- Week 1 success criteria
+- Month 1 success criteria
+- Quarter 1 success criteria
+- Leading vs lagging indicators
+
+**DELIVERABLES:**
+- One-page strategy document
+- 3-month roadmap with epics
+- Resource allocation (team, budget, timeline)
+- Risk register (top 5 risks with mitigation)
+Bonus: My Swiss Army Knife Prompt (använder jag dagligen)
+text
+You are an elite-tier expert in [FIELD] with [NUMBER] years of experience. Your task is to [TASK].
+
+**CONSTRAINTS:**
+- Must be practical and immediately actionable
+- Avoid theoretical fluff
+- Include specific examples
+- Consider edge cases
+
+**STRUCTURE YOUR RESPONSE:**
+1. **TL;DR** (3 bullet point summary)
+2. **Core Concept** (explain like I'm smart but new to this)
+3. **Step-by-Step Implementation** (numbered steps with examples)
+4. **Common Pitfalls** (what to avoid with why)
+5. **Success Metrics** (how to measure if it's working)
+6. **Next Steps** (what to do right now)
+
+**FORMAT:**
+- Use markdown for readability
+- Include code/commands if technical
+- Add checklists where helpful
+- Bold key insights
+
+**CONTEXT FOR THIS REQUEST:**
+[PASTE YOUR SPECIFIC CONTEXT HERE]
+Varför dessa prompts är exceptionella:
+Roll-specifika: Definierar exakt vem du vill att AI ska vara
+
+Strukturerade: Tvingar organiserat tänkande
+
+Handlingsinriktade: Alltid med "nästa steg"
+
+Djupgående: Ber om specifika exempel, inte bara teorier
+
+Anpassningsbara: Fungerar över olika domäner
+
+Pro tip: Kombinera dessa med "Chain of Thought" prompting för ännu bättre resultat:
+
+text
+Låt oss tänka igenom detta steg för steg. Först, [STEG 1]. Sedan, [STEG 2]. Till slut, [STEG 3].
