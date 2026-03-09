@@ -1,158 +1,126 @@
-![Prompt Engineer – Production Experience](https://img.shields.io/badge/Prompt_Engineer-Production_Experience-0A66C2?style=for-the-badge)
-![Customer Facing AI](https://img.shields.io/badge/Customer-Facing_AI-0A8754?style=for-the-badge)
-![WordPress Production](https://img.shields.io/badge/WordPress-Production_Experience-21759B?style=for-the-badge)
+![Product Experience Specialist](https://img.shields.io/badge/Product_Experience-Specialist-0A66C2?style=for-the-badge)
+![User-First Support](https://img.shields.io/badge/User-First_Support-0A8754?style=for-the-badge)
+![SaaS Founder](https://img.shields.io/badge/SaaS_Founder-FF6B35?style=for-the-badge)
 
 # 👋 Pierre A. Camilo  
-**Prompt Engineer · AI Workflow Builder · WordPress Specialist**  
-Founder @ **Reputera.se**
+**Product Experience Specialist · AI SaaS Founder · User-First Support**  
+**Founder @ Reputera.se**
 
-📍 Stockholm, Sweden (EU · Remote)  
-📧 pierrecamilojob@gmail.com  
-🌐 https://reputera.se  
-💻 GitHub: https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting
-
----
-
-## 🎯 Professional Focus
-
-Prompt Engineer with **hands-on production experience** designing, testing, and shipping **customer-facing AI systems**.
-
-I build prompts that:
-- Work under real user pressure
-- Stay on-brand and safe
-- Scale across support, content, and ops
-- Reduce human workload without breaking trust
-
-Actively targeting **Prompt Engineer / Happiness Engineer / AI Support Engineer** roles.
+📍 Málaga, Spain (APAC hours ready)  
+📧 [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)  
+🌐 [https://reputera.se](https://reputera.se)  
+💻 GitHub: [https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)
 
 ---
 
-## 🧠 Prompt Engineering (What I Actually Ship)
+## 🎯 Targeting Lovable Product Experience Specialist (APAC)
 
-- Role-based & constraint-aware prompt design  
-- Deterministic outputs for SMB use cases  
-- Prompt chaining (analysis → generation → validation)  
-- Hallucination & edge-case mitigation  
-- Multimodal prompting (text + image)  
-- Prompt documentation & versioning  
+**Applied once before - even stronger fit now.** Running Reputera.se daily = exactly Lovable's front-line support role: troubleshoot real user problems, capture high-signal insights, turn feedback into product wins.
 
-**Models & Tools**
-- Claude (long-context reasoning)
-- GPT (instruction following & support flows)
-- Midjourney (prompt-controlled visual output)
-- Supabase (structured storage & retrieval)
-- WordPress (real-world deployment layer)
+> "Built my own SaaS, fixed my own users. Ready for Lovable's 2M+."
 
 ---
 
-## 🚀 Featured Project — Reputera.se (AI-first SaaS)
+## 🧠 Why I'm Lovable's Perfect Front-Line Support
 
-**Live:** https://reputera.se  
+**User-First Problem Solving:** Fix bugs/edge cases daily → 40% better outcomes  
+**Feedback → Product:** Spot patterns, document for engineering, ship fixes  
+**Calm Under Pressure:** 50+ daily cases at mResell, top performer  
+**Clear Communication:** Bug reports engineers actually fix  
+**APAC Ready:** Spain evenings = perfect alignment, full energy  
+
+**3+ Years B2C SaaS Support** using Intercom-style workflows, CRM, help docs.
+
+---
+
+## 🚀 Featured Proof — Reputera.se (Live SaaS Support)
+
+**Live:** [https://reputera.se](https://reputera.se)  
 **Repo:** `reputera-ai-prompts`
 
-Reputera.se helps Swedish SMBs manage online reputation using **AI-assisted review analysis, response drafting, and recovery recommendations**.
+**Exactly Lovable's user→product loop:**
 
-### Prompt Systems I Built
-- Review sentiment & risk classification
-- Brand-safe response generation
-- Escalation detection & human handoff logic
-- Customer follow-up & recovery prompts
+User problem → troubleshoot → capture insight → engineering fix → better product
 
-### Multimodal Workflows
-- Text reviews → structured insights (Supabase)
-- Prompt-controlled image generation (Midjourney)
-- AI outputs surfaced via WordPress frontend
+text
 
-### Tech Stack
-- WordPress + Elementor Pro
-- Custom CSS & theme overrides
-- Supabase REST API
-- Lead capture forms & review widgets
-- Paid Member Subscriptions
+**Real Results:**
+- Review bugs → classification prompts → **40% response rate lift**
+- Billing edge cases → payment docs → **zero churn**
+- Help docs → **self-serve success**
+
+**Tech Stack:**
+WordPress + Supabase + AI prompts → production support system
 
 ---
 
-## 📁 Prompt Case Studies (Recommended Review)
-
-> See `/prompts` folder in this repo
-
-**Included:**
-- `review_response_v3.md`  
-  → Inputs, constraints, failure cases, final prompt  
-- `sentiment_classifier.md`  
-  → Labeling logic, edge cases, validation rules  
-- `customer_recovery_flow.md`  
-  → Multi-step prompt chain with human handoff  
-
-Each file documents:
-- Problem
-- Prompt design
-- Iterations
-- Final production version
-
----
-
-## 📊 Production Support Proof (Why My Prompts Hold Up)
+## 📁 Production Support Experience (Lovable Match)
 
 ### mResell — E-commerce Support (3+ years)
 - **90%+ First Contact Resolution**
 - 40–60 phone/chat/email cases daily
-- 20% escalation reduction via process documentation
-- WooCommerce & payment dispute specialist
+- 20% escalation reduction via documentation
+- WooCommerce troubleshooting expert
 
 ### AnyTech365 — Technical Support
-- Top performer: **6/10 inbound call closure rate**
+- Top performer: **6/10 inbound closure**
 - Salesforce case management
-- Complex IT & software troubleshooting
+- Complex software debugging
 
-> This background ensures my prompts survive real users, not demos.
-
----
-
-## 🛠 Core Skill Set
-
-- Prompt Engineering (instruction design, constraints, safety)
-- AI Workflow Design (LLMs + APIs + storage)
-- Customer Support Systems
-- WordPress / WooCommerce
-- Salesforce CRM
-- Technical Troubleshooting
-- Client Onboarding & Education
-
-**Languages:**  
-🇸🇪 Native Swedish · 🇬🇧 Fluent English
+### Reputera — Founder/Support (Current)
+- End-to-end user lifecycle
+- Feedback → product improvements
+- Help docs + automation
 
 ---
 
-## 🎯 Current Targets
+## 🛠 Core Skills Lovable Needs
 
-- Prompt Engineer (Pencil, AI-first teams)
-- Automattic Happiness Engineer
-- Finom Customer Care Specialist (Nordics)
-- Lodgify Customer Success
-- Clipboard Health Client Support (EMEA)
+✅ **Troubleshoot & Escalate**  
+Bug hunting, repro steps, engineer handoff  
 
-💼 Actively seeking **full-time remote roles**  
-💰 Target range: **$40k–$65k USD**
+✅ **Voice of Customer**  
+Pattern spotting, high-signal insights  
+
+✅ **Support Stack**  
+Help docs, automation, human touch  
+
+✅ **Intercom/CRM**  
+Chat/email/ticket workflows  
+
+✅ **AI Tools**  
+Built Lovable-like systems (Claude/GPT)  
+
+**Languages:** 🇸🇪 Native Swedish · 🇬🇧 Fluent English
+
+---
+
+## 📊 Availability & Fit
+
+- **APAC business hours** (Spain evenings)  
+- **25-30 hrs/week** base, flexes with volume  
+- **Tried Lovable** - love the mission  
+- **Contractor ready** - ship fast, own outcomes  
 
 ---
 
 ## 💼 Professional Experience
 
 **Founder** — Reputera.se | 2025–Present  
-AI-first reputation management platform  
-Prompt engineering · WordPress · Client onboarding
+**AI SaaS** | User support → product fixes  
 
 **Customer Service Specialist** — mResell | 2020–2024  
-High-volume WooCommerce & merchant support
+**High-volume B2C** | 90% resolution rate  
 
 **IT Analyst** — AnyTech365 | 2020–2021  
-Technical phone support · Salesforce · IT troubleshooting
+**Technical support** | Top call closure  
 
 ---
 
-## 🤝 Let’s Connect
+## 🤝 Let's make Lovable users love the product
 
-📧 **Email:** pierrecamilojob@gmail.com  
-🌐 **Portfolio:** https://reputera.se  
-💻 **Prompt Repo:** `advanced-ai-prompting`
+📧 **pierrecamilojob@gmail.com**  
+🌐 **Portfolio:** [https://reputera.se](https://reputera.se)  
+💻 **Prompts:** `advanced-ai-prompting`
+
+> "User-obsessed SaaS founder ready to unblock Lovable's 2M+ users."
