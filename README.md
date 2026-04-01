@@ -1,126 +1,136 @@
 ![Product Experience Specialist](https://img.shields.io/badge/Product_Experience-Specialist-0A66C2?style=for-the-badge)
 ![User-First Support](https://img.shields.io/badge/User-First_Support-0A8754?style=for-the-badge)
 ![SaaS Founder](https://img.shields.io/badge/SaaS_Founder-FF6B35?style=for-the-badge)
+![AI Automation](https://img.shields.io/badge/AI_Automation-8E44AD?style=for-the-badge)
 
 # 👋 Pierre A. Camilo  
-**Product Experience Specialist · AI SaaS Founder · User-First Support**  
-**Founder @ Reputera.se**
+**AI SaaS Founder · Product Experience Specialist · Tech Support Expert**  
+**Founder @ Reputera.se | AI + Web Scraping + Customer Success**
 
-📍 Málaga, Spain (APAC hours ready)  
+📍 Málaga, Spain (EU/APAC hours flexible)  
 📧 [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)  
 🌐 [https://reputera.se](https://reputera.se)  
-💻 GitHub: [https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)
+💻 GitHub: [reputera-ai-prompts](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)  
+📱 +34 623 038 590
 
 ---
 
-## 🎯 Targeting Lovable Product Experience Specialist (APAC)
-
-**Applied once before - even stronger fit now.** Running Reputera.se daily = exactly Lovable's front-line support role: troubleshoot real user problems, capture high-signal insights, turn feedback into product wins.
-
-> "Built my own SaaS, fixed my own users. Ready for Lovable's 2M+."
-
----
-
-## 🧠 Why I'm Lovable's Perfect Front-Line Support
-
-**User-First Problem Solving:** Fix bugs/edge cases daily → 40% better outcomes  
-**Feedback → Product:** Spot patterns, document for engineering, ship fixes  
-**Calm Under Pressure:** 50+ daily cases at mResell, top performer  
-**Clear Communication:** Bug reports engineers actually fix  
-**APAC Ready:** Spain evenings = perfect alignment, full energy  
-
-**3+ Years B2C SaaS Support** using Intercom-style workflows, CRM, help docs.
-
----
-
-## 🚀 Featured Proof — Reputera.se (Live SaaS Support)
-
-**Live:** [https://reputera.se](https://reputera.se)  
-**Repo:** `reputera-ai-prompts`
-
-**Exactly Lovable's user→product loop:**
-
-User problem → troubleshoot → capture insight → engineering fix → better product
+## 🎯 Open to Remote Work | AI Training • Support • SaaS • Data
+🔥 Alignerr AI Trainer (Swedish/Fashion) - Applied
+🔥 Mindrift Vibe Code (Web Scraping) - Applied
+💰 $30-120/hr | 10-40h/week | EU/EMEA/Worldwide
 
 text
 
-**Real Results:**
-- Review bugs → classification prompts → **40% response rate lift**
-- Billing edge cases → payment docs → **zero churn**
-- Help docs → **self-serve success**
-
-**Tech Stack:**
-WordPress + Supabase + AI prompts → production support system
+**User-obsessed builder who ships. Fixed real problems for real users across AI, support, sales.**
 
 ---
 
-## 📁 Production Support Experience (Lovable Match)
+## 🚀 What I Deliver
 
-### mResell — E-commerce Support (3+ years)
-- **90%+ First Contact Resolution**
-- 40–60 phone/chat/email cases daily
-- 20% escalation reduction via documentation
-- WooCommerce troubleshooting expert
-
-### AnyTech365 — Technical Support
-- Top performer: **6/10 inbound closure**
-- Salesforce case management
-- Complex software debugging
-
-### Reputera — Founder/Support (Current)
-- End-to-end user lifecycle
-- Feedback → product improvements
-- Help docs + automation
+| **Role** | **Skills** | **Results** | **Tools** |
+|----------|------------|-------------|-----------|
+| **AI Trainer** | LLM prompts, data annotation, content eval | 40% accuracy lift | OpenAI, Claude, Supabase |
+| **Product Support** | Bug hunting, user insights, escalation | 90% first-contact resolution | Intercom, Zendesk, CRM |
+| **Web Scraping** | Data extraction, API parsing, validation | Live production datasets | PHP/Python, Apify |
+| **SaaS Founder** | Full-stack, automation, revenue systems | Bootstrapped live MVP | React, WordPress, AI APIs |
 
 ---
 
-## 🛠 Core Skills Lovable Needs
+## 🧠 Professional Experience
 
-✅ **Troubleshoot & Escalate**  
-Bug hunting, repro steps, engineer handoff  
+### **AI SaaS Founder** — Reputera.se *(2025–Present)*
+**Live AI Review Automation Platform**
+Bootstrapped end-to-end: Supabase + OpenAI/Claude prompts + React/PHP
 
-✅ **Voice of Customer**  
-Pattern spotting, high-signal insights  
+Web scraping pipelines: 50+ sources → structured review datasets
 
-✅ **Support Stack**  
-Help docs, automation, human touch  
+User support → product fixes: 40% response lift, zero churn
 
-✅ **Intercom/CRM**  
-Chat/email/ticket workflows  
+LLM workflows: content categorization, quality evaluation
 
-✅ **AI Tools**  
-Built Lovable-like systems (Claude/GPT)  
+text
 
-**Languages:** 🇸🇪 Native Swedish · 🇬🇧 Fluent English
+### **Customer Success Specialist** — mResell *(2020–2024)*
+**High-volume multilingual support (Sweden/UK/Italy)**
+50+ daily complex cases → 90% first-contact resolution
+
+Root-cause analysis → 20% escalation reduction
+
+Top performer: pattern spotting → documentation → team wins
+
+text
+
+### **IT Analyst & Sales Lead** — AnyTech365 *(2020–2021)*
+60% inbound close rate (tech sales)
+
+Custom data extraction tools for lead generation
+
+Salesforce case management + technical debugging
+
+text
+
+### **Fashion & Content Specialist** — Freelance *(2007–2019)*
+100+ photoshoots: styling, trend forecasting, brand coordination
+
+Native Swedish content creation/evaluation
+
+Multilingual project management (SE/EN/ES/IT)
+
+text
 
 ---
 
-## 📊 Availability & Fit
+## 🛠 Technical Toolkit
 
-- **APAC business hours** (Spain evenings)  
-- **25-30 hrs/week** base, flexes with volume  
-- **Tried Lovable** - love the mission  
-- **Contractor ready** - ship fast, own outcomes  
-
----
-
-## 💼 Professional Experience
-
-**Founder** — Reputera.se | 2025–Present  
-**AI SaaS** | User support → product fixes  
-
-**Customer Service Specialist** — mResell | 2020–2024  
-**High-volume B2C** | 90% resolution rate  
-
-**IT Analyst** — AnyTech365 | 2020–2021  
-**Technical support** | Top call closure  
+```yaml
+AI/ML: Prompt Engineering -  LLM Evaluation -  Data Annotation
+Web: PHP (Advanced) -  Python (Scraping) -  React -  WordPress
+Data: Supabase -  CSV/JSON Processing -  API Integration
+Tools: Apify -  OpenRouter -  GitHub -  REST APIs
+Support: Intercom/Zendesk workflows -  CRM -  Help Documentation
+Languages: Swedish (Native) -  English (C1) -  Spanish (B2) -  Italian (B1)
+```
 
 ---
 
-## 🤝 Let's make Lovable users love the product
+## 📈 Recent Applications & Wins
+✅ Alignerr: Swedish Language Expert ($40-120/hr) - Screening
+✅ Mindrift: Vibe Code Scraping ($32/hr) - Applied
+✅ YO HR: AI Fashion Trainer ($35-45/hr) - Pending
+🎯 Target: AI Data - Product Support - Web Scraping - SaaS Roles
+
+text
+
+---
+
+## 💡 Featured Projects
+
+**🔗 [Reputera.se](https://reputera.se)** — Live AI SaaS MVP  
+**💻 [AI Prompts Repo](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)** — Production LLM engineering  
+User → Problem → Insight → Fix → Better Product
+(The loop I live in daily)
+
+text
+
+---
+
+## 📋 Availability
+🕐 EU Hours: Immediate (Spain-based)
+🌏 APAC Hours: Evenings (perfect alignment)
+📊 Capacity: 25-40 hrs/week
+💰 Rate: Market + proven results
+
+text
+
+---
+
+## 🤝 Let's Build Together
+
+**AI Training • Product Support • Data Extraction • SaaS Growth**
+
+> "Shipped live SaaS. Fixed real user problems. Ready to unblock yours."
 
 📧 **pierrecamilojob@gmail.com**  
-🌐 **Portfolio:** [https://reputera.se](https://reputera.se)  
-💻 **Prompts:** `advanced-ai-prompting`
-
-> "User-obsessed SaaS founder ready to unblock Lovable's 2M+ users."
+🌐 **[reputera.se](https://reputera.se)**  
+💻 **[GitHub](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)**
