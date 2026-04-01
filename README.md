@@ -10,7 +10,7 @@
 📍 Málaga, Spain (EU/APAC hours flexible)  
 📧 [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)  
 🌐 [https://reputera.se](https://reputera.se)  
-💻 GitHub: [reputera-ai-prompts](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)  
+💻 GitHub: [reputeraforetag-source/reputera-portfolio-](https://github.com/reputeraforetag-source/reputera-portfolio-)  
 📱 +34 623 038 590
 
 ---
@@ -22,7 +22,7 @@
 
 text
 
-**User-obsessed builder who ships. Fixed real problems for real users across AI, support, sales.**
+**User-obsessed builder who ships. Fixed real problems across AI, support, sales.**
 
 ---
 
@@ -30,96 +30,83 @@ text
 
 | **Role** | **Skills** | **Results** | **Tools** |
 |----------|------------|-------------|-----------|
-| **AI Trainer** | LLM prompts, data annotation, content eval | 40% accuracy lift | OpenAI, Claude, Supabase |
-| **Product Support** | Bug hunting, user insights, escalation | 90% first-contact resolution | Intercom, Zendesk, CRM |
-| **Web Scraping** | Data extraction, API parsing, validation | Live production datasets | PHP/Python, Apify |
-| **SaaS Founder** | Full-stack, automation, revenue systems | Bootstrapped live MVP | React, WordPress, AI APIs |
+| **AI Trainer** | LLM prompts, data annotation | 40% accuracy lift | OpenAI, Claude |
+| **Product Support** | Bug hunting, user insights | 90% first-contact resolution | Intercom, CRM |
+| **Web Scraping** | Data extraction, API parsing | Live production datasets | PHP/Python, Apify |
+| **SaaS Founder** | Full-stack, automation | Bootstrapped live MVP | React, Supabase |
 
 ---
 
 ## 🧠 Professional Experience
 
 ### **AI SaaS Founder** — Reputera.se *(2025–Present)*
-**Live AI Review Automation Platform**
-Bootstrapped end-to-end: Supabase + OpenAI/Claude prompts + React/PHP
+Bootstrapped end-to-end: Supabase + OpenAI/Claude + React/PHP
 
-Web scraping pipelines: 50+ sources → structured review datasets
+Web scraping: 50+ sources → structured review datasets
 
-User support → product fixes: 40% response lift, zero churn
+User support → product fixes: 40% response lift
 
 LLM workflows: content categorization, quality evaluation
 
 text
 
-### **Customer Success Specialist** — mResell *(2020–2024)*
-**High-volume multilingual support (Sweden/UK/Italy)**
-50+ daily complex cases → 90% first-contact resolution
+### **Customer Success** — mResell *(2020–2024)*
+50+ daily cases → 90% first-contact resolution
 
 Root-cause analysis → 20% escalation reduction
 
-Top performer: pattern spotting → documentation → team wins
+Top performer: pattern spotting → documentation
 
 text
 
-### **IT Analyst & Sales Lead** — AnyTech365 *(2020–2021)*
+### **IT Analyst & Sales** — AnyTech365 *(2020–2021)*
 60% inbound close rate (tech sales)
 
 Custom data extraction tools for lead generation
 
-Salesforce case management + technical debugging
-
 text
 
-### **Fashion & Content Specialist** — Freelance *(2007–2019)*
-100+ photoshoots: styling, trend forecasting, brand coordination
+### **Fashion Specialist** — Freelance *(2007–2019)*
+100+ photoshoots: styling, trend forecasting
 
 Native Swedish content creation/evaluation
-
-Multilingual project management (SE/EN/ES/IT)
 
 text
 
 ---
 
-## 🛠 Technical Toolkit
+## 🛠 Technical Skills
 
 ```yaml
 AI/ML: Prompt Engineering -  LLM Evaluation -  Data Annotation
 Web: PHP (Advanced) -  Python (Scraping) -  React -  WordPress
-Data: Supabase -  CSV/JSON Processing -  API Integration
-Tools: Apify -  OpenRouter -  GitHub -  REST APIs
-Support: Intercom/Zendesk workflows -  CRM -  Help Documentation
-Languages: Swedish (Native) -  English (C1) -  Spanish (B2) -  Italian (B1)
+Data: Supabase -  CSV/JSON -  API Integration
+Support: Intercom/Zendesk -  CRM -  Help Documentation
+Languages: Swedish (Native) -  English (C1) -  Spanish (B2)
 ```
 
 ---
 
-## 📈 Recent Applications & Wins
-✅ Alignerr: Swedish Language Expert ($40-120/hr) - Screening
-✅ Mindrift: Vibe Code Scraping ($32/hr) - Applied
-✅ YO HR: AI Fashion Trainer ($35-45/hr) - Pending
-🎯 Target: AI Data - Product Support - Web Scraping - SaaS Roles
+## 📈 Recent Applications
+✅ Alignerr: Swedish Language Expert ($40-120/hr)
+✅ Mindrift: Vibe Code Scraping ($32/hr)
+🎯 Target: AI Data - Product Support - Web Scraping
 
 text
 
 ---
 
-## 💡 Featured Projects
+## 💼 Featured Projects
 
 **🔗 [Reputera.se](https://reputera.se)** — Live AI SaaS MVP  
-**💻 [AI Prompts Repo](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)** — Production LLM engineering  
-User → Problem → Insight → Fix → Better Product
-(The loop I live in daily)
-
-text
+**💻 [Job Application Portfolio](https://github.com/reputeraforetag-source/reputera-portfolio-)**  
 
 ---
 
 ## 📋 Availability
-🕐 EU Hours: Immediate (Spain-based)
-🌏 APAC Hours: Evenings (perfect alignment)
+🕐 EU Hours: Immediate
+🌏 APAC Hours: Evenings
 📊 Capacity: 25-40 hrs/week
-💰 Rate: Market + proven results
 
 text
 
@@ -127,10 +114,7 @@ text
 
 ## 🤝 Let's Build Together
 
-**AI Training • Product Support • Data Extraction • SaaS Growth**
-
-> "Shipped live SaaS. Fixed real user problems. Ready to unblock yours."
+> "Shipped live SaaS. Fixed real user problems. Ready for yours."
 
 📧 **pierrecamilojob@gmail.com**  
-🌐 **[reputera.se](https://reputera.se)**  
-💻 **[GitHub](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)**
+🌐 **[reputera.se](https://reputera.se)**
