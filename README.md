@@ -2,7 +2,7 @@
 
 AI Systems Builder · SaaS Founder · Customer Experience Specialist  
 Founder @ [Reputera.se](https://reputera.se) | AI · Automation · Web Scraping · Customer Success  
-📍 Gothenburg / Remote (Sweden & EU timezone)  
+📍 Stockholm/Malaga Remote (Sweden & EU timezone)  
 📧 [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)  
 💻 GitHub 1: [reputeraforetag-source/reputera-portfolio-](https://github.com/reputeraforetag-source/reputera-portfolio-)  
 💻 GitHub 2: [reputera-ai-prompts](https://github.com/reputeraforetag-source/reputera-portfolio-/tree/main/advanced-ai-prompting)  
