@@ -1,120 +1,74 @@
-![Product Experience Specialist](https://img.shields.io/badge/Product_Experience-Specialist-0A66C2?style=for-the-badge)
-![User-First Support](https://img.shields.io/badge/User-First_Support-0A8754?style=for-the-badge)
-![SaaS Founder](https://img.shields.io/badge/SaaS_Founder-FF6B35?style=for-the-badge)
-![AI Automation](https://img.shields.io/badge/AI_Automation-8E44AD?style=for-the-badge)
+👋 **Pierre A. Camilo**
 
-# 👋 Pierre A. Camilo  
-**AI SaaS Founder · Product Experience Specialist · Tech Support Expert**  
-**Founder @ Reputera.se | AI + Web Scraping + Customer Success**
-
-📍 Málaga, Spain (EU/APAC hours flexible)  
+AI SaaS-grundare · Produktupplevelse-specialist · Kundsupport-expert  
+Grundare @ [Reputera.se](https://reputera.se) | AI · Automatisering · Customer Success  
+📍 Göteborg / Remote (Sverige)  
 📧 [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)  
-🌐 [https://reputera.se](https://reputera.se)  
-💻 GitHub: [reputeraforetag-source/reputera-portfolio-](https://github.com/reputeraforetag-source/reputera-portfolio-)  
-📱 +34 623 038 590
+💻 GitHub: [reputeraforetag-source](https://github.com/reputeraforetag-source)  
+📱 +34 623 038 590  
+🎯 Öppen för Remote | AI Trainer · Support · SaaS · Data  
 
 ---
 
-## 🎯 Open to Remote Work | AI Training • Support • SaaS • Data
-🔥 Alignerr AI Trainer (Swedish/Fashion) - Applied
-🔥 Mindrift Vibe Code (Web Scraping) - Applied
-💰 $30-120/hr | 10-40h/week | EU/EMEA/Worldwide
-
-text
-
-**User-obsessed builder who ships. Fixed real problems across AI, support, sales.**
+🧠 **Jag bygger AI-system som faktiskt tjänar pengar.**  
+Inte prototyper som dör i en repo – utan saker som funkar för riktiga företag.  
+400+ samtal med svenska hantverkare, snabb prototypning och mätbar effekt.  
 
 ---
 
-## 🚀 What I Deliver
+🚀 **Vad jag levererar**
 
-| **Role** | **Skills** | **Results** | **Tools** |
-|----------|------------|-------------|-----------|
-| **AI Trainer** | LLM prompts, data annotation | 40% accuracy lift | OpenAI, Claude |
-| **Product Support** | Bug hunting, user insights | 90% first-contact resolution | Intercom, CRM |
-| **Web Scraping** | Data extraction, API parsing | Live production datasets | PHP/Python, Apify |
-| **SaaS Founder** | Full-stack, automation | Bootstrapped live MVP | React, Supabase |
-
----
-
-## 🧠 Professional Experience
-
-### **AI SaaS Founder** — Reputera.se *(2025–Present)*
-Bootstrapped end-to-end: Supabase + OpenAI/Claude + React/PHP
-
-Web scraping: 50+ sources → structured review datasets
-
-User support → product fixes: 40% response lift
-
-LLM workflows: content categorization, quality evaluation
-
-text
-
-### **Customer Success** — mResell *(2020–2024)*
-50+ daily cases → 90% first-contact resolution
-
-Root-cause analysis → 20% escalation reduction
-
-Top performer: pattern spotting → documentation
-
-text
-
-### **IT Analyst & Sales** — AnyTech365 *(2020–2021)*
-60% inbound close rate (tech sales)
-
-Custom data extraction tools for lead generation
-
-text
-
-### **Fashion Specialist** — Freelance *(2007–2019)*
-100+ photoshoots: styling, trend forecasting
-
-Native Swedish content creation/evaluation
-
-text
+| Roll | Färdigheter | Resultat | Verktyg |
+|------|--------------|-----------|----------|
+| **AI Product Lead** | Promptdesign, datamodellering | 30% retention | OpenAI, Claude |
+| **Customer Success** | Onboarding, analyser, kommunikation | +400 nöjda SMF-företag | Intercom, CRM |
+| **Web Scraping** | Datainsamling, API-integration | 50+ källdataset | Python, Supabase |
+| **SaaS Founder** | Fullstack, automation | Live MVP, intäkter | React, WordPress |
 
 ---
 
-## 🛠 Technical Skills
+💼 **Arbetslivserfarenhet**
 
-```yaml
-AI/ML: Prompt Engineering -  LLM Evaluation -  Data Annotation
-Web: PHP (Advanced) -  Python (Scraping) -  React -  WordPress
-Data: Supabase -  CSV/JSON -  API Integration
-Support: Intercom/Zendesk -  CRM -  Help Documentation
-Languages: Swedish (Native) -  English (C1) -  Spanish (B2)
-```
+**AI SaaS-grundare — Reputera.se (2025–Nu)**  
+Bootstrappade en AI-plattform för elektriker, målare och städare.  
+Byggde med Supabase + Claude + WordPress som pragmatiskt ops-lager.  
+Automatiserade SMS/Email-flöden, recensionsgenerering, retention till 30%.
 
----
+**Customer Success — mResell (2020–2024)**  
+50+ dagliga ärenden → 90% förstakontaktlösningar.  
+Grundorsaker istället för snabba svar → 20% färre eskaleringar.  
 
-## 📈 Recent Applications
-✅ Alignerr: Swedish Language Expert ($40-120/hr)
-✅ Mindrift: Vibe Code Scraping ($32/hr)
-🎯 Target: AI Data - Product Support - Web Scraping
+**IT Analyst / Säljare — AnyTech365 (2020–2021)**  
+60% close rate i inbound tech-supportmiljö.  
+Dataanalys → egna leadverktyg med automatisering.  
 
-text
-
----
-
-## 💼 Featured Projects
-
-**🔗 [Reputera.se](https://reputera.se)** — Live AI SaaS MVP  
-**💻 [Job Application Portfolio](https://github.com/reputeraforetag-source/reputera-portfolio-)**  
+**Musikkurator — Egen företagare (2007–2019)**  
+Spellistor, radiokanaler och publikretention → praktisk mönsterigenkänning före AI-eran.  
 
 ---
 
-## 📋 Availability
-🕐 EU Hours: Immediate
-🌏 APAC Hours: Evenings
-📊 Capacity: 25-40 hrs/week
+🛠 **Tekniska färdigheter**
 
-text
+AI/ML: Prompt Engineering · LLM-utvärdering · Dataannotation  
+Webb: PHP (Avancerad) · Python (Scraping) · React · WordPress  
+Data: Supabase · JSON/CSV · API-integration  
+Support: Intercom/Zendesk · CRM · Dokumentation  
+Språk: Svenska (Modersmål) · Engelska (Flytande) · Italienska (Grundläggande)
 
 ---
 
-## 🤝 Let's Build Together
+📈 **Utvalda projekt**
 
-> "Shipped live SaaS. Fixed real user problems. Ready for yours."
+🔗 [Reputera.se](https://reputera.se) — Live AI SaaS med betalande kunder  
+💻 [Prompt Portfolio](https://github.com/reputeraforetag-source/reputera-portfolio-) — 5 MIT-licensierade produktionspromptar  
+📊 Faktiska case: e-handel (+34% konvertering), SaaS (aktivering 42% vs 15%)  
 
-📧 **pierrecamilojob@gmail.com**  
-🌐 **[reputera.se](https://reputera.se)**
+---
+
+🤝 **Låt oss bygga något på riktigt**
+
+"Jag bygger, visar, testar med kund – dödar eller behåller.  
+AI ska kopplas till affärsvärde: intäkter, retention, rykte."
+
+📧 [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)  
+🌐 [https://reputera.se](https://reputera.se)
