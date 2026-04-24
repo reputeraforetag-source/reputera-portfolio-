@@ -11,7 +11,7 @@ Founder @ [Reputera.se](https://reputera.se) – AI review automation for SMBs
 
 ---
 
-## 🚀 What I Deliver (recruiter-friendly table)
+## 🚀 What I Deliver
 
 | **Role** | **Key Skills** | **Measurable Outcome** |
 |----------|----------------|------------------------|
