@@ -1,10 +1,8 @@
-
-
 # Pierre Camilo
 
-## Prompt Engineer & AI Workflow Specialist
+## AI Lead | AI & Digital Innovation | Digital Product Builder
 
-**AI · Prompt Engineering · AI Workflows · Digital Products · Business & Technology**
+**AI · Digital Transformation · AI/LLM · Product Development · Business & Technology**
 
 **Location:** Málaga, Spain  
 **Swedish connection:** Stockholm, Sweden  
@@ -21,25 +19,17 @@
 
 ## Professional Summary
 
-Prompt Engineer and digital product builder with hands-on experience designing AI-powered workflows, prompt systems and digital products.
+AI-focused digital product builder and entrepreneur with a background spanning IT, technical support, international B2B, business development and independent product development.
 
-As the founder of Reputera, I have worked across the full product cycle — from identifying business problems and defining product requirements to designing AI workflows, testing prompts, building integrations and deploying working systems.
+Founder of Reputera, where I have built two digital platforms from concept to working systems: reputera.se and private.reputera.se.
 
-My strength is translating ambiguous business or creative requirements into structured AI workflows that are understandable, repeatable and useful in real-world environments.
+My work combines business understanding with hands-on technology. I have worked across product definition, system architecture, AI/LLM integration, databases, APIs, integrations, access control, security and digital workflows.
 
-I work at the intersection of:
+I am particularly interested in how AI and digital technology can be applied to real business problems — not simply as technology for its own sake, but as a way to improve processes, support decision-making and create new ways of working.
 
-- Prompt engineering
-- Generative AI
-- AI workflow design
-- Digital product development
-- Business requirements
-- User enablement
-- Technical implementation
-- Iterative testing
-- Human-AI collaboration
+My strength is moving between business and technology: understanding a real problem, defining what needs to be solved, structuring the solution and taking it through development and implementation.
 
-I am particularly interested in using AI to augment people rather than replace them — creating systems that allow teams to work more efficiently while retaining human judgement, creativity and control.
+I am currently studying **AI Lead at Berghs School of Communication**, a full-time programme focused on AI strategy, digital transformation and the application of AI in organisations.
 
 ---
 
@@ -49,39 +39,45 @@ I am particularly interested in using AI to augment people rather than replace t
 
 **May 2025 – Present**
 
-Founder of Reputera, an AI-driven digital product focused on reputation management, customer communication and digital workflows for businesses.
+Founder of Reputera and responsible for the product, technical and business development of two digital platforms: reputera.se and private.reputera.se.
 
-Responsible for product strategy, AI workflows, technical development and business development.
+#### AI & Digital Innovation
 
-#### AI & Prompt Engineering
-
-- Designed AI-assisted workflows for real-world business use cases.
-- Developed reusable prompt structures, templates and instruction frameworks.
-- Worked with structured instructions, context, constraints and output requirements.
-- Iteratively tested and refined prompts for consistency, relevance and tone.
-- Designed AI workflows intended for non-technical users.
-- Translated business problems into practical AI-assisted processes.
+- Designed AI-assisted workflows for practical business use cases.
 - Worked with multiple LLM platforms and AI development environments.
+- Designed structured prompts, instructions, context and output requirements.
+- Tested and iterated AI workflows for consistency, relevance and usability.
+- Explored how AI can support business processes and user workflows.
+- Designed human-in-the-loop approaches where human judgement remains part of the process.
+- Translated business requirements into practical AI-assisted solutions.
 
 #### Product & Technical Development
 
-- Defined product concepts and user requirements.
-- Designed system architecture and information structures.
-- Built and maintained digital product functionality.
+- Built both platforms from initial business concept and product definition through system architecture, development and deployment.
 - Worked hands-on with React, TypeScript and Node.js.
 - Developed REST API integrations.
 - Worked with PostgreSQL and Supabase.
 - Designed integrations between digital services and systems.
-- Worked with authentication, access control and Row Level Security.
+- Worked with authentication, access control and Row Level Security (RLS).
+- Developed structures for verification, evidence management and traceability.
 - Used Git and GitHub throughout product development.
 
 #### Business & Product Strategy
 
-- Identified customer problems and translated them into product requirements.
+- Identified customer and business problems and translated them into product requirements.
 - Worked directly with customers and business users.
 - Combined product strategy, business development and technical implementation.
-- Evaluated where AI could create practical operational value.
-- Took products from initial concept through development and deployment.
+- Evaluated where AI and digital technology could create practical business value.
+- Took products from initial concept through development and working implementation.
+- Responsible for product direction, business development and technical development.
+
+### Reputera Private
+
+As part of the Reputera development, I developed a separate digital product concept focused on independent digital environment verification, governance and stewardship.
+
+The work involved designing structured verification processes, evidence handling, traceability and governance models for complex digital environments.
+
+This work strengthened my interest in AI governance, digital transformation, structured decision-making and the relationship between technology, people and organisational control.
 
 ---
 
@@ -95,10 +91,11 @@ International B2B business development within hospitality technology.
 - Managed sales processes from initial contact through closing.
 - Worked with senior decision-makers and business owners.
 - Conducted customer needs analysis.
-- Translated operational problems into relevant technology solutions.
+- Identified operational and commercial challenges.
+- Translated business needs into relevant digital and technology solutions.
 - Developed long-term customer relationships and partnerships.
 - Worked across multiple European markets.
-- Learned to connect technology directly to business value.
+- Built practical experience connecting technology with business value.
 
 ---
 
@@ -143,25 +140,46 @@ Independent consulting business focused on creative development, commercial bran
 
 - Managed projects from initial sales through delivery.
 - Worked directly with clients, suppliers and partners.
-- Managed the complete project lifecycle.
+- Managed complete project lifecycles.
 - Developed long-term customer relationships.
 - Delivered more than 100 productions for Swedish and international clients.
 - Combined commercial, creative and operational responsibilities.
 
 ---
 
-## AI & Prompt Engineering
+# AI & Digital Transformation
 
-### Prompt Design
+## AI Lead
+
+**Berghs School of Communication · Full-time · 2026 – Present**
+
+Currently studying AI Lead, a full-time programme focused on the strategic and practical application of AI in organisations.
+
+Areas include:
+
+- AI strategy
+- Digital transformation
+- AI implementation
+- Organisational change
+- AI-driven business development
+- AI governance
+- Responsible use of AI
+- AI project development
+- Emerging AI technologies
+
+The programme prepares for roles such as AI Lead, AI Transformation Manager, AI Project Manager, AI Change Manager and AI Governance Coordinator.
+
+---
+
+## Prompt Engineering & AI Workflow Design
 
 My approach to prompt engineering focuses on structure, context, constraints and iterative testing rather than treating prompts as isolated pieces of text.
 
-#### Areas of experience
+### Areas of experience
 
 - System prompt design
 - Context engineering
 - Constraint engineering
-- Persona frameworks
 - Structured output design
 - Instruction hierarchy
 - Few-shot prompting
@@ -171,6 +189,8 @@ My approach to prompt engineering focuses on structure, context, constraints and
 - Tone and style control
 - Workflow-specific prompting
 - Human-in-the-loop workflows
+- AI-assisted product development
+- LLM workflow design
 
 ---
 
@@ -198,65 +218,3 @@ Human Review
 Iteration
        ↓
 Production Workflow
-````
-
----
-
-## Technology
-
-* React
-* TypeScript
-* Node.js
-* REST APIs
-* PostgreSQL
-* Supabase
-* Git
-* GitHub
-* WordPress
-* Vercel
-* Docker
-* AI / LLM APIs
-
----
-
-## Languages
-
-* Swedish — Native
-* English — Fluent / Professional
-* Italian — Good working knowledge
-
----
-
-## Availability
-
-**Immediately available**
-
-Open to:
-
-* AI / Prompt Engineering
-* AI Workflow Design
-* AI Product Development
-* Digital Transformation
-* AI Strategy
-* Product / Technology roles
-* Remote EU opportunities
-
-**Location:** Málaga, Spain
-**Swedish connection:** Stockholm, Sweden
-**Remote:** EU Ready
-
----
-
-## Contact
-
-**Pierre Camilo**
-
-📧 [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)
-📱 +34 623 038 590
-🔗 [https://linkedin.com/in/pierrealexandercamilo](https://linkedin.com/in/pierrealexandercamilo)
-🌐 [https://reputera.se](https://reputera.se)
-💻 [https://github.com/reputeraforetag-source](https://github.com/reputeraforetag-source)
-
-
-Så ja: **`resume.md` är rätt fil, Markdown-formatet är rätt, och hashtaggarna ska vara kvar.**
-```
