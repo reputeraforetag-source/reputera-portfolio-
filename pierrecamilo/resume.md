@@ -1,132 +1,262 @@
+
+````markdown
 # Pierre Camilo
+
 ## Prompt Engineer & AI Workflow Specialist
 
-**Location:** Stockholm, Sweden & Malaga. Spain 
+**AI · Prompt Engineering · AI Workflows · Digital Products · Business & Technology**
+
+**Location:** Málaga, Spain  
+**Swedish connection:** Stockholm, Sweden  
 **Remote:** EU Ready  
-**Available:** Immediately  
+**Availability:** Immediately
+
 **Phone:** +34 623 038 590  
 **Email:** pierrecamilojob@gmail.com  
-**LinkedIn:** linkedin.com/in/pierrealexandercamilo  
-**Portfolio:** reputera.se  
-**GitHub:** github.com/reputeraforetag-source  
+**LinkedIn:** https://linkedin.com/in/pierrealexandercamilo  
+**Portfolio:** https://reputera.se  
+**GitHub:** https://github.com/reputeraforetag-source
 
 ---
 
 ## Professional Summary
 
-Highly analytical and creative Prompt Engineer with 9 months of hands-on experience building and scaling an AI-first SaaS product, Reputera.se, where prompts are the core product. Proven ability to translate complex client needs and creative briefs into scalable, multimodal AI workflows that drive efficiency and adoption. Expertise in iterative testing, constraint engineering, and developing user-friendly prompt libraries that empower non-technical teams. Seeking to apply a deep understanding of AI output calibration and user enablement to Pencil's mission of making AI the default in advertising without replacing creative people.
+Prompt Engineer and digital product builder with hands-on experience designing AI-powered workflows, prompt systems and digital products.
+
+As the founder of Reputera, I have worked across the full product cycle — from identifying business problems and defining product requirements to designing AI workflows, testing prompts, building integrations and deploying working systems.
+
+My strength is translating ambiguous business or creative requirements into structured AI workflows that are understandable, repeatable and useful in real-world environments.
+
+I work at the intersection of:
+
+- Prompt engineering
+- Generative AI
+- AI workflow design
+- Digital product development
+- Business requirements
+- User enablement
+- Technical implementation
+- Iterative testing
+- Human-AI collaboration
+
+I am particularly interested in using AI to augment people rather than replace them — creating systems that allow teams to work more efficiently while retaining human judgement, creativity and control.
 
 ---
 
-## Experience
+## Professional Experience
 
-### Founder & Prompt Engineer | Reputera.se
-*May 2025 – Present | Stockholm, Sweden*
+### Founder & Digital Product Builder — Reputera
 
-**Core Achievement:** Built an AI-first SaaS from scratch, turning creative chaos into predictable, scalable outputs for SMBs.
+**May 2025 – Present**
 
-- **Workflow Design & Efficiency:** Engineered 50+ customer scenarios into reusable prompt frameworks and templates, resulting in a 92% first-pass approval rate from non-technical clients (Pencil KPI: Output Quality).
-- **Multimodal Integration:** Designed and deployed a proprietary multimodal workflow (GPT-4o + Midjourney) to generate complete content packages (e.g., LinkedIn posts + matching visuals), leading to an 18% increase in client engagement (Pencil KPI: Creative Generation Volume).
-- **Process Optimization:** Systematically reduced client content creation time from an average of 4 hours to 45-minute batches by creating efficient, pre-tested prompt libraries (Pencil KPI: Efficiency).
-- **Agent Adoption & Enablement:** Built and documented internal playbooks and prompt libraries that Customer Success Managers (CSMs) could run independently, achieving 100% agent adoption within the team (Pencil KPI: Agent Adoption Rate, Knowledge Sharing).
-- **Iterative Testing:** Applied an analytical mindset to prompt refinement, routinely testing 12-17 variations per template to ensure outputs were consistently on-brand and "felt human," demonstrating mastery of tone, structure, and context.
+Founder of Reputera, an AI-driven digital product focused on reputation management, customer communication and digital workflows for businesses.
 
-### Business Development Manager | Order Tiger
-*2021 – 2024*
+Responsible for product strategy, AI workflows, technical development and business development.
 
-- **Client Translation:** Translated messy client briefs into clear, persona-based proposals, laying the foundation for current persona-based prompting and constraint engineering skills.
-- **Communication & Clarity:** Achieved a 6/10 call closure rate by reframing complex technical terms into simple, persuasive language, demonstrating the ability to explain complex concepts clearly.
+#### AI & Prompt Engineering
 
-### Customer Success Lead | mResell
-*2020 – 2024*
+- Designed AI-assisted workflows for real-world business use cases.
+- Developed reusable prompt structures, templates and instruction frameworks.
+- Worked with structured instructions, context, constraints and output requirements.
+- Iteratively tested and refined prompts for consistency, relevance and tone.
+- Designed AI workflows intended for non-technical users.
+- Translated business problems into practical AI-assisted processes.
+- Worked with multiple LLM platforms and AI development environments.
 
-- **Pattern Recognition:** Handled 40-60 daily queries with a 90% first-contact resolution (FCR) rate, developing a strong pattern recognition skill for common problems and the exact phrasing that converts user confusion into clarity—a critical skill for prompt constraint design.
+#### Product & Technical Development
 
-### IT Support Specialist | AnyTech365
-*2020 – 2021*
+- Defined product concepts and user requirements.
+- Designed system architecture and information structures.
+- Built and maintained digital product functionality.
+- Worked hands-on with React, TypeScript and Node.js.
+- Developed REST API integrations.
+- Worked with PostgreSQL and Supabase.
+- Designed integrations between digital services and systems.
+- Worked with authentication, access control and Row Level Security.
+- Used Git and GitHub throughout product development.
 
-- **Technical Communication:** Recognized as a top performer for explaining technical concepts to non-technical clients, reinforcing the ability to break down complexity step-by-step, which is essential for building user-friendly AI workflows.
+#### Business & Product Strategy
 
----
-
-## AI Tool & Workflow Mastery
-
-### Text AI
-- **Tools:** GPT-4o, Claude 3.5 Sonnet, Grok
-- **Expertise:** System Prompt Design, Chain-of-Thought Structuring, Constraint Engineering, Temperature Testing (0.3 for consistency vs. 0.8 for creativity).
-
-### Image AI
-- **Tools:** Midjourney v6, Leonardo.ai
-- **Expertise:** Multimodal Workflow Integration, Mastering `--style raw`, Negative Prompting, Aspect Ratio Control (e.g., `/imagine [DISH_NAME] plating, Scandinavian minimalist... --ar 16:9`).
-
-### Workflow Engineering
-- **Tools:** Persona Frameworks, Iterative Testing, Playbooks
-- **Expertise:** Translating Pain Points → Prompt Frameworks, Quality Scoring Systems for non-technical users, Tracking 5-17 variations per template.
-
-### Infrastructure
-- **Tools:** Supabase (Auth/Data), WordPress, Photopea
-- **Expertise:** Full-stack deployment of AI-driven applications, batch editing for visual assets.
+- Identified customer problems and translated them into product requirements.
+- Worked directly with customers and business users.
+- Combined product strategy, business development and technical implementation.
+- Evaluated where AI could create practical operational value.
+- Took products from initial concept through development and deployment.
 
 ---
 
-## Portfolio
+### Strategic Business Development — Order Tiger
 
-- **Live SaaS:** reputera.se (WordPress frontend + Supabase backend + AI prompt layer, with paying customers utilizing prompt workflows).
-- **GitHub Prompt Library:** github.com/reputeraforetag-source/reputera-portfolio- (Contains 5 battle-tested prompt frameworks and case studies showing 10x improvements).
+**2021 – 2024**  
+**London / Hybrid**
 
-### Prompt Frameworks:
-1. **SaaS Onboarding Flow Optimizer** - 40%+ activation rates
-2. **Viral Content System Builder** - 8x content output
-3. **High-Conversion Sales Page Writer** - 5%+ conversion
-4. **Technical Debugging Super Prompt** - 10x faster resolution
-5. **Product Strategy Framework** - 0→1 product development
+International B2B business development within hospitality technology.
 
----
-
-## Why I'm Built for Pencil
-
-### Direct Experience Match:
-- **Hands-on prompt crafting** → Daily work: 50+ scenarios → prompt frameworks
-- **Turn briefs into workflows** → Core skill: Client needs → multimodal AI pipelines
-- **Understand tone/structure/context** → Tested 12-17 variations per template
-- **Collaborate with creative teams** → Built systems for CSMs with 92% approval
-- **Test & iterate based on feedback** → Analytical mindset: track metrics, refine prompts
-- **Explain AI concepts simply** → Teach restaurant owners to use Midjourney
-- **Client-facing creative work** → Paying customers use my prompt systems daily
-
-### Mission Alignment:
-> *"Make AI the default in advertising without replacing creative people"*
-
-This is **exactly** what I've done at Reputera.se:
-- **Empowered, not replaced:** Built tools that make CSMs more effective
-- **Scaled creativity:** Systems that produce consistent, on-brand content
-- **Maintained human touch:** Outputs that "feel human" through rigorous testing
+- Managed sales processes from initial contact through closing.
+- Worked with senior decision-makers and business owners.
+- Conducted customer needs analysis.
+- Translated operational problems into relevant technology solutions.
+- Developed long-term customer relationships and partnerships.
+- Worked across multiple European markets.
+- Learned to connect technology directly to business value.
 
 ---
 
-## Measurable Results
+### Customer Service / Technical Support — mResell
 
-| Metric | Result | Pencil KPI Equivalent |
-|--------|--------|---------------------|
-| **Agent Adoption Rate** | 100% team adoption | ✅ Agent Adoption Rate |
-| **Creative Generation** | 18% engagement increase | ✅ Creative Generation Volume |
-| **Output Quality** | 92% first-pass approval | ✅ Output Quality |
-| **Efficiency** | 4h → 45min creation time | ✅ Efficiency |
-| **Knowledge Sharing** | Internal playbooks built | ✅ Knowledge Sharing |
+**2021 – 2024**  
+**Fuengirola, Spain**
+
+Worked in an international technology environment handling customer cases and technical support.
+
+- Managed complex customer cases.
+- Analysed technical problems and identified solutions.
+- Troubleshot hardware and software issues.
+- Acted as a bridge between technical teams and users.
+- Explained technical issues clearly to non-technical customers.
+- Identified recurring problems and improvement opportunities.
 
 ---
 
-## Contact & Availability
+### IT Analyst / Team Leader — AnyTech365
 
-**Immediate Availability:** Yes  
-**Preferred Setup:** Remote (EU)  
-**Notice Period:** None  
-**Location:** Stockholm, Sweden / EU Remote
+**2020 – 2021**  
+**Málaga, Spain**
 
-**Contact:**  
-- **Email:** pierrecamilojob@gmail.com  
-- **LinkedIn:** linkedin.com/in/pierrealexandercamilo  
-- **Portfolio:** reputera.se  
-- **GitHub:** github.com/reputeraforetag-source
+Worked within an international IT support environment.
 
-*References and detailed case studies available upon request.*
+- Technical troubleshooting and problem solving.
+- System analysis and issue diagnosis.
+- Management of complex technical customer cases.
+- Team coordination.
+- Communication between technical and non-technical users.
+- Translation of complex technical concepts into practical explanations.
+
+---
+
+### Founder / Freelance Consultant — Pierre Camilo Image Consulting
+
+**2007 – 2019**  
+**Stockholm, Sweden**
+
+Independent consulting business focused on creative development, commercial branding and trend analysis.
+
+- Managed projects from initial sales through delivery.
+- Worked directly with clients, suppliers and partners.
+- Managed the complete project lifecycle.
+- Developed long-term customer relationships.
+- Delivered more than 100 productions for Swedish and international clients.
+- Combined commercial, creative and operational responsibilities.
+
+---
+
+## AI & Prompt Engineering
+
+### Prompt Design
+
+My approach to prompt engineering focuses on structure, context, constraints and iterative testing rather than treating prompts as isolated pieces of text.
+
+#### Areas of experience
+
+- System prompt design
+- Context engineering
+- Constraint engineering
+- Persona frameworks
+- Structured output design
+- Instruction hierarchy
+- Few-shot prompting
+- Prompt decomposition
+- Output evaluation
+- Prompt iteration
+- Tone and style control
+- Workflow-specific prompting
+- Human-in-the-loop workflows
+
+---
+
+## AI Workflow Engineering
+
+I focus on the complete workflow surrounding the model rather than the prompt alone.
+
+```text
+Business Problem
+       ↓
+User / Persona
+       ↓
+Context
+       ↓
+Instructions
+       ↓
+Constraints
+       ↓
+Model
+       ↓
+Output Structure
+       ↓
+Human Review
+       ↓
+Iteration
+       ↓
+Production Workflow
+````
+
+---
+
+## Technology
+
+* React
+* TypeScript
+* Node.js
+* REST APIs
+* PostgreSQL
+* Supabase
+* Git
+* GitHub
+* WordPress
+* Vercel
+* Docker
+* AI / LLM APIs
+
+---
+
+## Languages
+
+* Swedish — Native
+* English — Fluent / Professional
+* Italian — Good working knowledge
+
+---
+
+## Availability
+
+**Immediately available**
+
+Open to:
+
+* AI / Prompt Engineering
+* AI Workflow Design
+* AI Product Development
+* Digital Transformation
+* AI Strategy
+* Product / Technology roles
+* Remote EU opportunities
+
+**Location:** Málaga, Spain
+**Swedish connection:** Stockholm, Sweden
+**Remote:** EU Ready
+
+---
+
+## Contact
+
+**Pierre Camilo**
+
+📧 [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)
+📱 +34 623 038 590
+🔗 [https://linkedin.com/in/pierrealexandercamilo](https://linkedin.com/in/pierrealexandercamilo)
+🌐 [https://reputera.se](https://reputera.se)
+💻 [https://github.com/reputeraforetag-source](https://github.com/reputeraforetag-source)
+
+
+Så ja: **`resume.md` är rätt fil, Markdown-formatet är rätt, och hashtaggarna ska vara kvar.**
+```
