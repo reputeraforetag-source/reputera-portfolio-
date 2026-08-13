@@ -1,3 +1,4 @@
+
 # Pierre Camilo
 
 ## AI Lead | AI & Digital Innovation | Digital Product Builder
@@ -218,3 +219,91 @@ Human Review
 Iteration
        ↓
 Production Workflow
+````
+
+---
+
+## Technology
+
+### Development & Architecture
+
+* React
+* TypeScript
+* Node.js
+* REST APIs
+* System architecture
+* Information architecture
+* Digital integrations
+
+### Data & Infrastructure
+
+* PostgreSQL
+* Supabase
+* Git
+* GitHub
+* Vercel
+* Docker
+
+### AI & Automation
+
+* Generative AI
+* Large Language Models (LLMs)
+* AI / LLM APIs
+* AI-assisted development
+* AI integrations
+* Automated workflows
+* Prompt engineering
+
+### Security & Control
+
+* Authentication
+* Access control
+* Row Level Security (RLS)
+* Auditability
+* Traceability
+* Evidence management
+
+---
+
+## Languages
+
+* **Swedish** — Native
+* **English** — Fluent / Professional working proficiency
+* **Italian** — Good working knowledge
+
+---
+
+## Availability
+
+**Immediately available**
+
+Open to roles in:
+
+* AI / AI Lead
+* AI Transformation
+* AI & Digital Innovation
+* AI Workflow Design
+* AI Product Development
+* Digital Transformation
+* AI Strategy
+* AI Project Management
+* AI Governance
+* Product / Technology
+* Business & Technology
+
+**Location:** Málaga, Spain
+**Swedish connection:** Stockholm, Sweden
+**Remote:** EU Ready
+
+---
+
+## Contact
+
+**Pierre Camilo**
+
+Email: [pierrecamilojob@gmail.com](mailto:pierrecamilojob@gmail.com)
+Phone: +34 623 038 590
+LinkedIn: [https://linkedin.com/in/pierrealexandercamilo](https://linkedin.com/in/pierrealexandercamilo)
+Portfolio: [https://reputera.se](https://reputera.se)
+GitHub: [https://github.com/reputeraforetag-source](https://github.com/reputeraforetag-source)
+
