@@ -4,53 +4,62 @@
 
 Founder of **Reputera AB**, where I design and build digital products from business problem to working system.
 
-My work sits between business, technology and AI. I am comfortable defining a product, designing the architecture, working with data and APIs, implementing AI/LLM workflows, and turning an idea into something that can actually be used.
+My work sits at the intersection of **business, technology, AI and digital product development**.
+
+I am comfortable moving across the full product lifecycle: understanding a business problem, defining the product, designing the architecture, working with data and APIs, implementing AI/LLM workflows, and turning an idea into a working system.
 
 ---
 
-## Reputera 
+# Reputera 
 
-I founded **Reputera AB** and have independently designed and built two distinct digital products.
+I founded **Reputera AB** and have independently designed and built two distinct digital products for two different markets.
 
-### 1. Reputera.se
+The products share a common foundation in digital product development, but solve fundamentally different problems.
 
-**AI-driven reputation and review platform for local businesses**
+---
+
+## 1. Reputera.se
+
+### AI-driven reputation and review platform for local businesses
 
 🌐 https://reputera.se
 
-Reputera.se is built to help businesses collect, manage and improve their online customer reviews and reputation.
+**Reputera.se** is a digital platform designed to help businesses collect, manage and improve their online customer reviews and reputation.
 
 I designed and built the platform from the ground up, including:
 
 - Product concept and business model
-- User experience and application architecture
+- Product definition and user experience
+- Application architecture
 - React-based frontend
 - Backend and API integrations
 - PostgreSQL / Supabase data architecture
 - AI and LLM integrations
 - Automated review and data workflows
 - Authentication and access control
-- Database security and Row Level Security (RLS)
+- Database security
+- Row Level Security (RLS)
 - External API integrations
-- Product iteration based on real user needs
+- Product testing and iteration
+- Commercial development
 
 The project gave me practical experience across the complete product lifecycle:
 
-**Business problem → product definition → architecture → development → AI integration → deployment → user feedback → iteration**
+**Business problem → Product definition → Architecture → Development → AI integration → Deployment → User feedback → Iteration**
 
 ---
 
-### 2. Private.Reputera.se
+# 2. Private.Reputera.se
 
-**Independent digital environment verification and stewardship platform**
+### Independent Digital Environment Verification & Stewardship
 
 🌐 https://private.reputera.se
 
-Private.Reputera.se is a separate product and concept from Reputera.se.
+**Private.Reputera.se is a separate product and concept from Reputera.se.**
 
-It was designed for a completely different market and problem space, focusing on the governance, verification and management of complex private digital environments.
+It was designed for a completely different market and problem space, focusing on the structured verification, governance and management of complex private digital environments.
 
-The concept explores how digital environments can be made more:
+The product explores how digital environments can become more:
 
 - Structured
 - Traceable
@@ -73,11 +82,13 @@ I designed and built the product architecture around concepts including:
 - Versioning and change tracking
 - Risk-oriented system design
 
-The work required thinking beyond simply building software. The central question became:
+The work required thinking beyond simply building software.
 
-**How do you create digital systems where important decisions, evidence and changes can be understood and verified later?**
+The central engineering question became:
 
-This project has become a significant part of my interest in AI governance, responsible technology and the practical implementation of controls around increasingly capable digital systems.
+> **How do you create digital systems where important decisions, evidence and changes can be understood and verified later?**
+
+This work has also strengthened my interest in **responsible AI, digital governance and the practical implementation of controls around increasingly capable digital systems.**
 
 ---
 
@@ -85,13 +96,13 @@ This project has become a significant part of my interest in AI governance, resp
 
 I am particularly interested in the space between:
 
-**Business needs ↔ Digital products ↔ AI ↔ Technology ↔ Governance**
+**Business Needs ↔ Digital Products ↔ AI ↔ Technology ↔ Governance**
 
 I do not approach AI as an end in itself.
 
-The question I start with is usually:
+The question I usually start with is:
 
-> What problem are we actually trying to solve, and where can technology create measurable value?
+> **What problem are we actually trying to solve, and where can technology create measurable value?**
 
 From there I work backwards toward the appropriate architecture, data, automation and AI capabilities.
 
@@ -101,9 +112,13 @@ From there I work backwards toward the appropriate architecture, data, automatio
 
 ## Founder & Digital Product Builder
 ### Reputera 
+
 **2025 – Present | Sweden**
 
-Founded Reputera AB and independently developed two distinct digital products: Reputera.se and Private.Reputera.se.
+Founded **Reputera AB** and independently developed two distinct digital products:
+
+- Reputera.se
+- Private.Reputera.se
 
 Responsibilities include:
 
@@ -128,6 +143,7 @@ The role requires moving continuously between business questions and technical i
 
 ## Strategic Business Development
 ### Order Tiger
+
 **2021 – 2024 | International**
 
 International B2B business development within hospitality technology.
@@ -145,6 +161,7 @@ This experience gave me a strong understanding of how technology decisions are m
 
 ## Customer Service / Technical Support
 ### mResell
+
 **2020 – 2024 | Spain**
 
 Worked in a technology-focused international customer environment.
@@ -160,6 +177,7 @@ Worked in a technology-focused international customer environment.
 
 ## IT Analyst / Team Leader
 ### AnyTech365
+
 **2020 – 2021 | Spain**
 
 - Technical troubleshooting and system analysis
@@ -174,6 +192,7 @@ Worked in a technology-focused international customer environment.
 
 ## Founder / Freelance Consultant
 ### Pierre Camilo Image Consulting
+
 **2007 – 2019 | Sweden**
 
 Independent consulting and project-based work involving:
@@ -192,9 +211,7 @@ This period developed the commercial, communication and client-management skills
 
 # AI & Digital Technology
 
-My practical experience includes:
-
-### AI & LLM
+## AI & LLM
 
 - Generative AI
 - LLM integrations
@@ -206,7 +223,7 @@ My practical experience includes:
 - AI-assisted analysis
 - Evaluation and iteration of AI outputs
 
-### Product & Application Development
+## Product & Application Development
 
 - React
 - TypeScript
@@ -217,7 +234,7 @@ My practical experience includes:
 - Authentication
 - Role and permission models
 
-### Data & Infrastructure
+## Data & Infrastructure
 
 - PostgreSQL
 - Supabase
@@ -228,7 +245,7 @@ My practical experience includes:
 - Vercel
 - Docker
 
-### Automation & Data
+## Automation & Data
 
 - Workflow automation
 - API-based data collection
@@ -240,7 +257,7 @@ My practical experience includes:
 
 # Digital Governance & Verification
 
-Through the development of Private.Reputera.se I have worked practically with the problem of creating digital systems that are structured, traceable and controllable.
+Through the development of **Private.Reputera.se**, I have worked practically with the problem of creating digital systems that are structured, traceable and controllable.
 
 Areas include:
 
@@ -256,18 +273,19 @@ Areas include:
 - Accountability and ownership
 - Separation of data and authority
 
-My focus is not on claiming formal certification in regulatory frameworks.
+My focus is not on claiming formal certification or specialist status in regulatory frameworks.
 
 Instead, I am interested in the practical engineering question:
 
-**How do you translate principles such as accountability, traceability, security and responsible technology into systems and processes that people can actually use?**
+> **How do you translate principles such as accountability, traceability, security and responsible technology into systems and processes that people can actually use?**
 
 ---
 
 # Selected Projects
 
 ## Reputera.se
-**AI-driven reputation platform**
+
+**AI-driven reputation and review platform**
 
 A live SaaS product developed from concept through implementation.
 
@@ -276,7 +294,8 @@ A live SaaS product developed from concept through implementation.
 ---
 
 ## Private.Reputera.se
-**Digital environment verification & stewardship**
+
+**Independent Digital Environment Verification & Stewardship**
 
 A separate digital product exploring verification, evidence, governance and structured management of complex private digital environments.
 
@@ -312,15 +331,15 @@ That is also why I enjoy building new products: there is no existing process to 
 
 # What I Bring
 
-### Business understanding
+### Business Understanding
 
 Experience working directly with customers, business owners and decision-makers.
 
-### Technical understanding
+### Technical Understanding
 
 Ability to understand architecture, APIs, databases, applications and AI systems — and to build working systems myself.
 
-### Product thinking
+### Product Thinking
 
 Ability to move from an unclear problem to a concrete product or technical concept.
 
@@ -330,24 +349,26 @@ Practical experience using and integrating modern AI/LLM technology rather than 
 
 ### Execution
 
-I am used to taking responsibility for the complete path from idea to working product.
+Used to taking responsibility for the complete path from idea to working product.
 
 ### Communication
 
-Comfortable explaining technical concepts to people who do not have a technical background.
+Comfortable explaining technical concepts to people without a technical background.
 
 ---
 
 # Education
 
 ## Berghs School of Communication
-**AI Lead**
+
+**AI Lead**  
 2025 – 2026
 
 Focus on AI strategy, digital transformation and translating business requirements into AI-driven solutions.
 
 ## Folkungaskolan
-**Social Economics Programme**
+
+**Social Economics Programme**  
 1994 – 1997
 
 ---
@@ -364,10 +385,9 @@ Focus on AI strategy, digital transformation and translating business requiremen
 
 **Pierre A. Camilo**
 
-Founder, Reputera 
+Founder, **Reputera AB**
 
-📧 pierrecamilojob@gmail.com  
-📱 +34 623 038 590
+📧 pierrecamilojob@gmail.com
 
 🌐 https://reputera.se  
 🌐 https://private.reputera.se
@@ -377,8 +397,6 @@ https://github.com/reputeraforetag-source/reputera-portfolio-
 
 ---
 
-## Current focus
+## Areas of Interest
 
-AI · Digital Innovation · Digital Products · Business/Technology Alignment · AI Governance · Product Development · Automation
-
-> I build technology to solve real problems — and I care about what happens after the technology works.
+**AI · Digital Innovation · Digital Products · Business & Technology · AI Governance · Product Development · Automation**
