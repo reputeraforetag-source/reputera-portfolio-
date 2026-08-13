@@ -14,6 +14,23 @@ I build digital products from business idea to working system, combining product
 
 AI-driven reputation and customer communication platform for local businesses.
 
+### Reputera Private
+
+**https://private.reputera.se**
+
+A separate digital product focused on **Independent Digital Environment Verification and Digital Stewardship** for private digital environments.
+
+### AI Lead — Berghs School of Communication
+
+**2026 – Present**
+
+Full-time programme focused on AI strategy, digital transformation and the application of AI in business and organisational development.
+### Reputera
+
+**https://reputera.se**
+
+AI-driven reputation and customer communication platform for local businesses.
+
 My work includes:
 
 - Product strategy and requirements
